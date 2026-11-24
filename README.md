@@ -15,6 +15,12 @@ The order of the commits is the point:
    reading of the result, what survives, and one sentence of the specification clarified.
    **Not pre-registered**: it was written after the results were known.
 
+5. [`descriptive/`](descriptive/) — three scripts behind other exhibits of the application file,
+   with their saved outputs: the opening allocation and the allocations of our three scenarios
+   (`allocation_paths.py`), the opening allocation replayed through five past shocks
+   (`stress_tests.py`) and the base effect on Brent (`base_effect.py`). **Descriptive, on fund
+   proxies, written after the results above were known. None of it is pre-registered.**
+
 `probe_coverage.py` is the only script that ran before the freeze. It reads first and last
 dates and row counts, and computes no return.
 

@@ -1,0 +1,168 @@
+{
+ "sample": [
+  "2007-06-04",
+  "2026-11-20",
+  4900
+ ],
+ "episodes": [
+  {
+   "episode": "Financial crisis",
+   "from": "2008-09-12",
+   "to": "2009-03-09",
+   "opening allocation (30% equities)": {
+    "return": -0.1602,
+    "deepest_fall": -0.1614,
+    "peak_vol_63": 0.2365
+   },
+   "same, equities at the 20% floor": {
+    "return": -0.111,
+    "deepest_fall": -0.1117,
+    "peak_vol_63": 0.1587
+   },
+   "reference mix 50/50": {
+    "return": -0.2145,
+    "deepest_fall": -0.2154,
+    "peak_vol_63": 0.3677
+   },
+   "20% equities, 80% bills": {
+    "return": -0.0992,
+    "deepest_fall": -0.1002,
+    "peak_vol_63": 0.1508
+   }
+  },
+  {
+   "episode": "Covid",
+   "from": "2020-02-19",
+   "to": "2020-03-23",
+   "opening allocation (30% equities)": {
+    "return": -0.1096,
+    "deepest_fall": -0.1096,
+    "peak_vol_63": 0.1761
+   },
+   "same, equities at the 20% floor": {
+    "return": -0.074,
+    "deepest_fall": -0.0763,
+    "peak_vol_63": 0.1198
+   },
+   "reference mix 50/50": {
+    "return": -0.1495,
+    "deepest_fall": -0.1495,
+    "peak_vol_63": 0.2592
+   },
+   "20% equities, 80% bills": {
+    "return": -0.0716,
+    "deepest_fall": -0.0716,
+    "peak_vol_63": 0.1142
+   }
+  },
+  {
+   "episode": "Inflation and rate rises",
+   "from": "2022-01-03",
+   "to": "2022-10-14",
+   "opening allocation (30% equities)": {
+    "return": -0.1076,
+    "deepest_fall": -0.1102,
+    "peak_vol_63": 0.1019
+   },
+   "same, equities at the 20% floor": {
+    "return": -0.0811,
+    "deepest_fall": -0.0842,
+    "peak_vol_63": 0.0767
+   },
+   "reference mix 50/50": {
+    "return": -0.2058,
+    "deepest_fall": -0.2064,
+    "peak_vol_63": 0.1686
+   },
+   "20% equities, 80% bills": {
+    "return": -0.0494,
+    "deepest_fall": -0.0509,
+    "peak_vol_63": 0.0528
+   }
+  },
+  {
+   "episode": "Oil shock",
+   "from": "2026-02-27",
+   "to": "2026-03-31",
+   "opening allocation (30% equities)": {
+    "return": -0.0153,
+    "deepest_fall": -0.0257,
+    "peak_vol_63": 0.0566
+   },
+   "same, equities at the 20% floor": {
+    "return": -0.0089,
+    "deepest_fall": -0.0165,
+    "peak_vol_63": 0.0398
+   },
+   "reference mix 50/50": {
+    "return": -0.0419,
+    "deepest_fall": -0.06,
+    "peak_vol_63": 0.1088
+   },
+   "20% equities, 80% bills": {
+    "return": -0.0099,
+    "deepest_fall": -0.0159,
+    "peak_vol_63": 0.0344
+   }
+  },
+  {
+   "episode": "AI correction",
+   "from": "2026-10-06",
+   "to": "2026-11-20",
+   "opening allocation (30% equities)": {
+    "return": -0.0279,
+    "deepest_fall": -0.0329,
+    "peak_vol_63": 0.046
+   },
+   "same, equities at the 20% floor": {
+    "return": -0.0173,
+    "deepest_fall": -0.0233,
+    "peak_vol_63": 0.0314
+   },
+   "reference mix 50/50": {
+    "return": -0.0354,
+    "deepest_fall": -0.0488,
+    "peak_vol_63": 0.0846
+   },
+   "20% equities, 80% bills": {
+    "return": -0.0165,
+    "deepest_fall": -0.0183,
+    "peak_vol_63": 0.0321
+   }
+  }
+ ],
+ "full_sample": {
+  "opening allocation (30% equities)": {
+   "days_above_cap": 0.063,
+   "highest_vol_63": 0.2365,
+   "highest_vol_date": "2008-12-16",
+   "vol": 0.0623,
+   "max_drawdown": -0.1999,
+   "ann_return": 0.0432
+  },
+  "same, equities at the 20% floor": {
+   "days_above_cap": 0.0285,
+   "highest_vol_63": 0.1587,
+   "highest_vol_date": "2008-12-16",
+   "vol": 0.0433,
+   "max_drawdown": -0.1384,
+   "ann_return": 0.036
+  },
+  "reference mix 50/50": {
+   "days_above_cap": 0.1769,
+   "highest_vol_63": 0.3677,
+   "highest_vol_date": "2008-12-16",
+   "vol": 0.0956,
+   "max_drawdown": -0.2672,
+   "ann_return": 0.0611
+  },
+  "20% equities, 80% bills": {
+   "days_above_cap": 0.0275,
+   "highest_vol_63": 0.1508,
+   "highest_vol_date": "2008-12-16",
+   "vol": 0.0395,
+   "max_drawdown": -0.124,
+   "ann_return": 0.0296
+  }
+ }
+}

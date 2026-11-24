@@ -39,11 +39,15 @@ def fig_vol_cap() -> None:
     w = d["w_rule"].loc[v.index] * 100
     w_static = pr_json["static_equal_volatility"]["equity_weight"] * 100
 
-    fig, (ax, ax2) = plt.subplots(2, 1, figsize=(6.89, 1.92), sharex=True,
-                                  gridspec_kw={"height_ratios": [3.0, 1], "hspace": 0.14})
+    fig, (ax, ax2) = plt.subplots(2, 1, figsize=(6.89, 1.95), sharex=True,
+                                  gridspec_kw={"height_ratios": [3.0, 1], "hspace": 0.34})
     ax.fill_between(v.index, v["vol63_STATIC"], color=LIGHT, linewidth=0)
-    ax.plot(v.index, v["vol63_STATIC"], color=GREY, linewidth=0.7)
-    ax.plot(v.index, v["vol63_RULE"], color=TEAL, linewidth=0.95)
+    static_line, = ax.plot(v.index, v["vol63_STATIC"], color=GREY, linewidth=0.7)
+    rule_line, = ax.plot(v.index, v["vol63_RULE"], color=TEAL, linewidth=0.95)
+    ax.legend([rule_line, static_line],
+              ["Our rule", f"Constant {w_static:.0f}/{100 - w_static:.0f} mix, same volatility over the period"],
+              loc="upper left", bbox_to_anchor=(0.47, 1.04), ncol=1, frameon=False, fontsize=7.2,
+              handlelength=1.6, handletextpad=0.5, labelspacing=0.25, borderaxespad=0)
     ax.axhline(10, color=RED, linewidth=0.8, linestyle=(0, (4, 2)))
     ax.text(v.index[25], 11.2, "Mandate cap 10%", color=RED, fontsize=7.5, va="bottom", fontweight="bold")
     ax.set_ylim(0, 37)
@@ -57,12 +61,12 @@ def fig_vol_cap() -> None:
     pr = res["portfolios"]["RULE"]
     ps = {"highest_63d_vol": pr_json["static_equal_volatility"]["highest_63d_vol"]}
     ds, dr = v["vol63_STATIC"].idxmax(), pd.Timestamp(pr["highest_63d_vol_date"])
-    ax.annotate(f"Constant {w_static:.0f}/{100 - w_static:.0f} mix, same risk:\npeaks at {ps['highest_63d_vol'] * 100:.1f}%",
+    ax.annotate(f"peaks at {ps['highest_63d_vol'] * 100:.1f}%",
                 xy=(ds, ps["highest_63d_vol"] * 100), xytext=(ds + pd.Timedelta(days=330), 31.5),
                 fontsize=7.5, color="#5B6876", va="center",
                 arrowprops={"arrowstyle": "-", "color": GREY, "linewidth": 0.5, "shrinkA": 1, "shrinkB": 2})
-    ax.annotate(f"Rule peaks at {pr['highest_63d_vol'] * 100:.1f}%",
-                xy=(dr, pr["highest_63d_vol"] * 100), xytext=(dr - pd.Timedelta(days=1500), 24.5),
+    ax.annotate(f"peaks at {pr['highest_63d_vol'] * 100:.1f}%",
+                xy=(dr, pr["highest_63d_vol"] * 100), xytext=(dr + pd.Timedelta(days=420), 24.5),
                 fontsize=7.5, color=TEAL, va="center", fontweight="bold",
                 arrowprops={"arrowstyle": "-", "color": TEAL, "linewidth": 0.5, "shrinkA": 1, "shrinkB": 2})
 
@@ -73,14 +77,14 @@ def fig_vol_cap() -> None:
     ax2.set_yticklabels(["20%", "80%"])
     ax2.axhline(20, color=GREY, linewidth=0.5)
     ax2.axhline(80, color=GREY, linewidth=0.5)
-    ax2.text(v.index[25], 50, "Equity weight set by the rule", fontsize=7.5, color=INK, va="center",
-             bbox={"facecolor": "white", "edgecolor": "none", "pad": 1.2, "alpha": 0.85})
+    ax2.text(0.0, 1.1, "Equity weight set by the rule each week", transform=ax2.transAxes, fontsize=7.2, color=INK, va="bottom", ha="left")
+    ax.text(0.0, 1.0, "63-session volatility", transform=ax.transAxes, fontsize=7.2, color=INK, va="top", ha="left")
     for side in ("top", "right", "left"):
         ax2.spines[side].set_visible(False)
     ax2.xaxis.set_major_locator(mdates.YearLocator(2))
     ax2.xaxis.set_major_formatter(mdates.DateFormatter("%Y"))
     ax2.set_xlim(v.index[0], v.index[-1])
-    fig.subplots_adjust(left=0.047, right=0.997, top=0.985, bottom=0.095)
+    fig.subplots_adjust(left=0.047, right=0.997, top=0.985, bottom=0.09)
     fig.savefig(OUT / "fig_vol_cap.svg")
     fig.savefig(OUT / "fig_vol_cap.png", dpi=220)
     plt.close(fig)

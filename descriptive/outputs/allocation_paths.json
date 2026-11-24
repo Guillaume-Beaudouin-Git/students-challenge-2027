@@ -1,0 +1,106 @@
+{
+ "opening": {
+  "weights_%": {
+   "Equities, developed markets": 30,
+   "Treasury bills and notes under 2 years": 25,
+   "Treasuries of 2 to 5 years": 15,
+   "Treasuries of 5 to 10 years": 0,
+   "Inflation-linked Treasuries, 5 years": 5,
+   "Dollar green bonds, supranational": 10,
+   "Commodities without agriculture": 5,
+   "Cash": 10
+  },
+  "expected_vol_%": 6.2,
+  "vol_points_by_block": {
+   "equities": 6.61,
+   "bonds": -0.46,
+   "commodities": 0.05
+  },
+  "replay_return_%": {
+   "oil shock, 27 Feb to 31 Mar 2026": -1.53,
+   "AI correction, 6 Oct to 20 Nov 2026": -2.79
+  },
+  "bond_sleeve_%": 55,
+  "average_maturity_years": 2.55,
+  "non_dollar_%": 10.0,
+  "expected_return_%": 5.36
+ },
+ "central scenario": {
+  "weights_%": {
+   "Equities, developed markets": 37,
+   "Treasury bills and notes under 2 years": 5,
+   "Treasuries of 2 to 5 years": 15,
+   "Treasuries of 5 to 10 years": 20,
+   "Inflation-linked Treasuries, 5 years": 5,
+   "Dollar green bonds, supranational": 10,
+   "Commodities without agriculture": 5,
+   "Cash": 3
+  },
+  "expected_vol_%": 7.59,
+  "vol_points_by_block": {
+   "equities": 7.96,
+   "bonds": -0.36,
+   "commodities": -0.02
+  },
+  "replay_return_%": {
+   "oil shock, 27 Feb to 31 Mar 2026": -2.42,
+   "AI correction, 6 Oct to 20 Nov 2026": -3.05
+  },
+  "bond_sleeve_%": 55,
+  "average_maturity_years": 5.09,
+  "non_dollar_%": 12.3,
+  "expected_return_%": 5.78
+ },
+ "third oil spike": {
+  "weights_%": {
+   "Equities, developed markets": 25,
+   "Treasury bills and notes under 2 years": 40,
+   "Treasuries of 2 to 5 years": 5,
+   "Treasuries of 5 to 10 years": 0,
+   "Inflation-linked Treasuries, 5 years": 10,
+   "Dollar green bonds, supranational": 5,
+   "Commodities without agriculture": 10,
+   "Cash": 5
+  },
+  "expected_vol_%": 5.38,
+  "vol_points_by_block": {
+   "equities": 5.23,
+   "bonds": -0.41,
+   "commodities": 0.57
+  },
+  "replay_return_%": {
+   "oil shock, 27 Feb to 31 Mar 2026": -0.37,
+   "AI correction, 6 Oct to 20 Nov 2026": -2.93
+  },
+  "bond_sleeve_%": 60,
+  "average_maturity_years": 1.87,
+  "non_dollar_%": 8.3,
+  "expected_return_%": 5.14
+ },
+ "AI de-rating goes on": {
+  "weights_%": {
+   "Equities, developed markets": 20,
+   "Treasury bills and notes under 2 years": 20,
+   "Treasuries of 2 to 5 years": 15,
+   "Treasuries of 5 to 10 years": 25,
+   "Inflation-linked Treasuries, 5 years": 5,
+   "Dollar green bonds, supranational": 10,
+   "Commodities without agriculture": 0,
+   "Cash": 5
+  },
+  "expected_vol_%": 4.36,
+  "vol_points_by_block": {
+   "equities": 3.29,
+   "bonds": 1.06,
+   "commodities": -0.0
+  },
+  "replay_return_%": {
+   "oil shock, 27 Feb to 31 Mar 2026": -2.24,
+   "AI correction, 6 Oct to 20 Nov 2026": -0.53
+  },
+  "bond_sleeve_%": 75,
+  "average_maturity_years": 4.33,
+  "non_dollar_%": 6.7,
+  "expected_return_%": 5.17
+ }
+}

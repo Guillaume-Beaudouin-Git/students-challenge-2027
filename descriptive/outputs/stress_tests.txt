@@ -1,0 +1,45 @@
+sample: 2007-06-04 to 2026-11-20 | 4900 sessions
+
+Financial crisis: 2008-09-12 to 2009-03-09 (121 sessions)
+  opening allocation (30% equities)    return  -16.0% | deepest fall  -16.1% | highest 63-session volatility  23.7%
+  same, equities at the 20% floor      return  -11.1% | deepest fall  -11.2% | highest 63-session volatility  15.9%
+  reference mix 50/50                  return  -21.5% | deepest fall  -21.5% | highest 63-session volatility  36.8%
+  20% equities, 80% bills              return   -9.9% | deepest fall  -10.0% | highest 63-session volatility  15.1%
+
+Covid: 2020-02-19 to 2020-03-23 (23 sessions)
+  opening allocation (30% equities)    return  -11.0% | deepest fall  -11.0% | highest 63-session volatility  17.6%
+  same, equities at the 20% floor      return   -7.4% | deepest fall   -7.6% | highest 63-session volatility  12.0%
+  reference mix 50/50                  return  -14.9% | deepest fall  -14.9% | highest 63-session volatility  25.9%
+  20% equities, 80% bills              return   -7.2% | deepest fall   -7.2% | highest 63-session volatility  11.4%
+
+Inflation and rate rises: 2022-01-03 to 2022-10-14 (197 sessions)
+  opening allocation (30% equities)    return  -10.8% | deepest fall  -11.0% | highest 63-session volatility  10.2%
+  same, equities at the 20% floor      return   -8.1% | deepest fall   -8.4% | highest 63-session volatility   7.7%
+  reference mix 50/50                  return  -20.6% | deepest fall  -20.6% | highest 63-session volatility  16.9%
+  20% equities, 80% bills              return   -4.9% | deepest fall   -5.1% | highest 63-session volatility   5.3%
+
+Oil shock: 2026-02-27 to 2026-03-31 (22 sessions)
+  opening allocation (30% equities)    return   -1.5% | deepest fall   -2.6% | highest 63-session volatility   5.7%
+  same, equities at the 20% floor      return   -0.9% | deepest fall   -1.6% | highest 63-session volatility   4.0%
+  reference mix 50/50                  return   -4.2% | deepest fall   -6.0% | highest 63-session volatility  10.9%
+  20% equities, 80% bills              return   -1.0% | deepest fall   -1.6% | highest 63-session volatility   3.4%
+
+AI correction: 2026-10-06 to 2026-11-20 (33 sessions)
+  opening allocation (30% equities)    return   -2.8% | deepest fall   -3.3% | highest 63-session volatility   4.6%
+  same, equities at the 20% floor      return   -1.7% | deepest fall   -2.3% | highest 63-session volatility   3.1%
+  reference mix 50/50                  return   -3.5% | deepest fall   -4.9% | highest 63-session volatility   8.5%
+  20% equities, 80% bills              return   -1.7% | deepest fall   -1.8% | highest 63-session volatility   3.2%
+
+full sample:
+  opening allocation (30% equities)    {'days_above_cap': 0.063, 'highest_vol_63': 0.2365, 'highest_vol_date': '2008-12-16', 'vol': 0.0623, 'max_drawdown': -0.1999, 'ann_return': 0.0432}
+  same, equities at the 20% floor      {'days_above_cap': 0.0285, 'highest_vol_63': 0.1587, 'highest_vol_date': '2008-12-16', 'vol': 0.0433, 'max_drawdown': -0.1384, 'ann_return': 0.036}
+  reference mix 50/50                  {'days_above_cap': 0.1769, 'highest_vol_63': 0.3677, 'highest_vol_date': '2008-12-16', 'vol': 0.0956, 'max_drawdown': -0.2672, 'ann_return': 0.0611}
+  20% equities, 80% bills              {'days_above_cap': 0.0275, 'highest_vol_63': 0.1508, 'highest_vol_date': '2008-12-16', 'vol': 0.0395, 'max_drawdown': -0.124, 'ann_return': 0.0296}
+
+opening allocation (30% equities): sessions above the cap by year: {2008: 58, 2009: 117, 2011: 42, 2020: 73, 2022: 15}
+
+same, equities at the 20% floor: sessions above the cap by year: {2008: 53, 2009: 30, 2020: 55}
+
+reference mix 50/50: sessions above the cap by year: {2008: 72, 2009: 162, 2010: 58, 2011: 101, 2012: 18, 2020: 100, 2022: 199, 2023: 46, 2025: 65, 2026: 35}
+
+20% equities, 80% bills: sessions above the cap by year: {2008: 51, 2009: 29, 2020: 53}
