@@ -1,4 +1,7 @@
-"""Figures drawn from results/. Plotting only: every number comes from run_exhibit.py outputs."""
+"""Figures drawn from results/. Plotting only: numbers come from run_exhibit.py and post_review.py outputs.
+
+The grey line is the constant mix with the same full-sample volatility as the rule (post-review comparison).
+"""
 from __future__ import annotations
 
 import json
@@ -30,9 +33,11 @@ plt.rcParams.update({
 def fig_vol_cap() -> None:
     d = pd.read_csv(OUT / "daily_series.csv", index_col=0, parse_dates=True)
     res = json.loads((OUT / "results.json").read_text())
-    v = d[["vol63_RULE", "vol63_STATIC"]].dropna() * 100
+    post = pd.read_csv(OUT / "post_review_series.csv", index_col=0, parse_dates=True)
+    pr_json = json.loads((OUT / "post_review.json").read_text())
+    v = pd.DataFrame({"vol63_RULE": d["vol63_RULE"], "vol63_STATIC": post["vol63_SAME_RISK"]}).dropna() * 100
     w = d["w_rule"].loc[v.index] * 100
-    w_static = res["static_equity_weight"] * 100
+    w_static = pr_json["static_equal_volatility"]["equity_weight"] * 100
 
     fig, (ax, ax2) = plt.subplots(2, 1, figsize=(6.89, 2.05), sharex=True,
                                   gridspec_kw={"height_ratios": [3.0, 1], "hspace": 0.14})
@@ -41,22 +46,23 @@ def fig_vol_cap() -> None:
     ax.plot(v.index, v["vol63_RULE"], color=TEAL, linewidth=0.95)
     ax.axhline(10, color=RED, linewidth=0.8, linestyle=(0, (4, 2)))
     ax.text(v.index[25], 11.2, "Mandate cap 10%", color=RED, fontsize=7.5, va="bottom", fontweight="bold")
-    ax.set_ylim(0, 46)
-    ax.set_yticks([0, 10, 20, 30, 40])
-    ax.set_yticklabels(["0", "10%", "20%", "30%", "40%"])
+    ax.set_ylim(0, 37)
+    ax.set_yticks([0, 10, 20, 30])
+    ax.set_yticklabels(["0", "10%", "20%", "30%"])
     ax.grid(axis="y", color=LIGHT, linewidth=0.6)
     ax.set_axisbelow(True)
     for side in ("top", "right", "left"):
         ax.spines[side].set_visible(False)
 
-    ps, pr = res["portfolios"]["STATIC"], res["portfolios"]["RULE"]
-    ds, dr = pd.Timestamp(ps["highest_63d_vol_date"]), pd.Timestamp(pr["highest_63d_vol_date"])
-    ax.annotate(f"Static {w_static:.0f}/{100 - w_static:.0f} mix\npeaks at {ps['highest_63d_vol'] * 100:.1f}%",
-                xy=(ds, ps["highest_63d_vol"] * 100), xytext=(ds + pd.Timedelta(days=330), 39.5),
+    pr = res["portfolios"]["RULE"]
+    ps = {"highest_63d_vol": pr_json["static_equal_volatility"]["highest_63d_vol"]}
+    ds, dr = v["vol63_STATIC"].idxmax(), pd.Timestamp(pr["highest_63d_vol_date"])
+    ax.annotate(f"Constant {w_static:.0f}/{100 - w_static:.0f} mix, same risk:\npeaks at {ps['highest_63d_vol'] * 100:.1f}%",
+                xy=(ds, ps["highest_63d_vol"] * 100), xytext=(ds + pd.Timedelta(days=330), 31.5),
                 fontsize=7.5, color="#5B6876", va="center",
                 arrowprops={"arrowstyle": "-", "color": GREY, "linewidth": 0.5, "shrinkA": 1, "shrinkB": 2})
     ax.annotate(f"Rule peaks at {pr['highest_63d_vol'] * 100:.1f}%",
-                xy=(dr, pr["highest_63d_vol"] * 100), xytext=(dr - pd.Timedelta(days=1500), 25.5),
+                xy=(dr, pr["highest_63d_vol"] * 100), xytext=(dr - pd.Timedelta(days=1500), 24.5),
                 fontsize=7.5, color=TEAL, va="center", fontweight="bold",
                 arrowprops={"arrowstyle": "-", "color": TEAL, "linewidth": 0.5, "shrinkA": 1, "shrinkB": 2})
 

@@ -1,0 +1,107 @@
+{
+ "note": "exploratory, not pre-registered; written after the single run",
+ "rule": {
+  "breach_frequency": 0.13548169394297283,
+  "highest_63d_vol": 0.18549278441696615,
+  "full_sample_vol": 0.08581948479501046,
+  "ann_excess_return": 0.05042171937886126,
+  "sharpe": 0.5875144044621781,
+  "max_drawdown": -0.2026478006120216
+ },
+ "static_equal_volatility": {
+  "equity_weight": 0.47,
+  "breach_frequency": 0.12907035599797537,
+  "highest_63d_vol": 0.3434781436094454,
+  "full_sample_vol": 0.08585646122422554,
+  "ann_excess_return": 0.05337193422885342,
+  "sharpe": 0.6216010182257513,
+  "max_drawdown": -0.24771140802043778
+ },
+ "static_equal_return": {
+  "equity_weight": 0.43,
+  "breach_frequency": 0.10696811202969461,
+  "highest_63d_vol": 0.3114245094045025,
+  "full_sample_vol": 0.07959102387801004,
+  "ann_excess_return": 0.05029332553765474,
+  "sharpe": 0.6318515851231926,
+  "max_drawdown": -0.22123362197817842
+ },
+ "breach_days": {
+  "rule_total": 803,
+  "equal_vol_total": 765,
+  "rule_in_2008_09_2020_2022_23": 387,
+  "equal_vol_in_2008_09_2020_2022_23": 549,
+  "rule_in_other_years": 416,
+  "equal_vol_in_other_years": 216
+ },
+ "calm_loading": {
+  "episodes": 9,
+  "mean_weight_over_the_63_sessions_before_start": 0.6428571428571428,
+  "mean_weight_full_sample": 0.5767306729003172
+ },
+ "floor_20_equity_80_treasuries_7_10y": {
+  "breach_frequency": 0.05770204150497722,
+  "highest_63d_vol": 0.14476167520685657,
+  "share_of_rule_breach_days_also_in_breach": 0.4259028642590286
+ },
+ "floor_20_equity_40_treasuries_40_bills": {
+  "breach_frequency": 0.011304201113548169,
+  "highest_63d_vol": 0.14163816893917858,
+  "share_of_rule_breach_days_also_in_breach": 0.08343711083437111
+ },
+ "floor_20_equity_20_treasuries_60_bills": {
+  "breach_frequency": 0.01872785557617682,
+  "highest_63d_vol": 0.14706281525094086,
+  "share_of_rule_breach_days_also_in_breach": 0.1382316313823163
+ },
+ "breach_frequency_by_target": {
+  "0.050": {
+   "breach_frequency": 0.06158258815589674,
+   "highest_63d_vol": 0.14905911949083517,
+   "mean_weight": 0.3555451661379195,
+   "full_sample_vol": 0.06355012023487076,
+   "sharpe": 0.6567196011478317,
+   "ann_excess_return": 0.04173620056465421
+  },
+  "0.060": {
+   "breach_frequency": 0.06293234351273831,
+   "highest_63d_vol": 0.15605925189198577,
+   "mean_weight": 0.43211721489397226,
+   "full_sample_vol": 0.07038519398405857,
+   "sharpe": 0.6188702835751239,
+   "ann_excess_return": 0.04356115023895567
+  },
+  "0.065": {
+   "breach_frequency": 0.07187447275181373,
+   "highest_63d_vol": 0.16119585062065675,
+   "mean_weight": 0.4709784605109367,
+   "full_sample_vol": 0.07428290067202357,
+   "sharpe": 0.6090810603890902,
+   "ann_excess_return": 0.04524642596866343
+  },
+  "0.070": {
+   "breach_frequency": 0.08739665935549182,
+   "highest_63d_vol": 0.1686117256785461,
+   "mean_weight": 0.5080464184337953,
+   "full_sample_vol": 0.07815443380872675,
+   "sharpe": 0.5997429123947848,
+   "ann_excess_return": 0.046874641569387074
+  },
+  "0.075": {
+   "breach_frequency": 0.11607896068837523,
+   "highest_63d_vol": 0.17672235201467948,
+   "mean_weight": 0.5442027049590916,
+   "full_sample_vol": 0.08204386253462198,
+   "sharpe": 0.5936726282719086,
+   "ann_excess_return": 0.04870892833209063
+  },
+  "0.080": {
+   "breach_frequency": 0.13548169394297283,
+   "highest_63d_vol": 0.18549278801900232,
+   "mean_weight": 0.5767306729003172,
+   "full_sample_vol": 0.08581948484954752,
+   "sharpe": 0.5875144585518024,
+   "ann_excess_return": 0.05042172405727163
+  }
+ }
+}
