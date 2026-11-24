@@ -1,0 +1,107 @@
+
+peak->trough 6 Oct -> 20 Nov
+  ^GSPC       -11.6%
+  SPY         -11.5%
+  URTH        -10.6%
+  EFA          -7.8%
+  ^IXIC       -18.1%
+  SOXX        -37.2%
+  IEF          +3.2%
+  TLT          +5.8%
+  SHY          +0.9%
+  BIL          +0.5%
+  TIP          +1.7%
+  GLD         -15.5%
+  IBGM.AS      +1.1%
+  EURUSD=X     -2.2%
+  BZ=F         -8.0%
+  DBC         -10.3%
+  EUROGOV in USD    -1.1%
+
+week 13 -> 20 Nov
+  ^GSPC        -8.6%
+  SPY          -8.6%
+  URTH         -8.4%
+  EFA          -7.7%
+  ^IXIC       -10.0%
+  SOXX        -17.3%
+  IEF          +1.8%
+  TLT          +2.6%
+  SHY          +0.5%
+  BIL          +0.1%
+  TIP          +1.1%
+  GLD          -9.2%
+  IBGM.AS      +0.4%
+  EURUSD=X     -0.7%
+  BZ=F         -3.4%
+  DBC          -4.8%
+  EUROGOV in USD    -0.3%
+
+30 Oct -> 20 Nov
+  ^GSPC        -8.8%
+  SPY          -8.7%
+  URTH         -8.4%
+  EFA          -7.0%
+  ^IXIC       -11.1%
+  SOXX        -21.5%
+  IEF          +0.2%
+  TLT          -0.1%
+  SHY          +0.2%
+  BIL          +0.2%
+  TIP          -0.7%
+  GLD          -9.3%
+  IBGM.AS      +0.6%
+  EURUSD=X     -1.9%
+  BZ=F        -21.3%
+  DBC         -12.8%
+  EUROGOV in USD    -1.3%
+
+YTD to 20 Nov
+  ^GSPC        +0.9%
+  SPY          +1.9%
+  URTH         +1.6%
+  EFA          +1.7%
+  ^IXIC        -2.7%
+  SOXX        +23.1%
+  IEF          -1.5%
+  TLT          -2.9%
+  SHY          +1.5%
+  BIL          +3.2%
+  TIP          -0.4%
+  GLD         -18.5%
+  IBGM.AS      -2.5%
+  EURUSD=X     -6.6%
+  BZ=F        +52.1%
+  DBC         +31.1%
+  EUROGOV in USD    -8.9%
+
+YTD to 24 Nov
+  ^GSPC        +5.2%
+  SPY          +6.2%
+  URTH         +5.4%
+  EFA          +4.6%
+  ^IXIC        +2.1%
+  SOXX        +28.4%
+  IEF          -1.5%
+  TLT          -2.8%
+  SHY          +1.5%
+  BIL          +3.3%
+  TIP          -0.6%
+  GLD         -17.9%
+  IBGM.AS      -2.2%
+  EURUSD=X     -6.7%
+  BZ=F        +45.3%
+  DBC         +29.8%
+  EUROGOV in USD    -8.7%
+
+stock-bond daily correlation (E vs IEF): last 63 sessions to 20 Nov: -0.04 | 2026 YTD: 0.29
+equity-gold daily correlation 2026 YTD: 0.47
+S&P from 6 Oct high close to 20 Nov close: -11.6%
+VIX on 22 Sep, 23 Oct, 4 Nov, 5 Nov, 20 Nov: [14.2, 19.5, 16.6, 28.2, 35.9]
+
+RULE vs STATIC vs 60/40
+  5 Nov one day:    rule -2.80% (w=0.76)  static -2.06%  60/40 -2.14%
+  16-20 Nov:        rule -1.98%  static -4.11%  60/40 -4.31%  weights [0.4, 0.36, 0.36, 0.36, 0.36]
+  7 Oct-20 Nov:     rule -3.47%  static -4.59%  60/40 -4.85%
+  2026 YTD to 20 Nov: rule -1.97%  static 0.74%  60/40 0.80%
+  rule weights around:  {Timestamp('2026-10-19 00:00:00'): 0.71, Timestamp('2026-10-20 00:00:00'): 0.74, Timestamp('2026-10-21 00:00:00'): 0.74, Timestamp('2026-10-22 00:00:00'): 0.74, Timestamp('2026-10-23 00:00:00'): 0.74, Timestamp('2026-10-26 00:00:00'): 0.74, Timestamp('2026-10-27 00:00:00'): 0.79, Timestamp('2026-10-28 00:00:00'): 0.79, Timestamp('2026-10-29 00:00:00'): 0.79, Timestamp('2026-10-30 00:00:00'): 0.79, Timestamp('2026-11-02 00:00:00'): 0.79, Timestamp('2026-11-03 00:00:00'): 0.76, Timestamp('2026-11-04 00:00:00'): 0.76, Timestamp('2026-11-05 00:00:00'): 0.76, Timestamp('2026-11-06 00:00:00'): 0.76, Timestamp('2026-11-09 00:00:00'): 0.76, Timestamp('2026-11-10 00:00:00'): 0.4, Timestamp('2026-11-11 00:00:00'): 0.4, Timestamp('2026-11-12 00:00:00'): 0.4, Timestamp('2026-11-13 00:00:00'): 0.4, Timestamp('2026-11-16 00:00:00'): 0.4, Timestamp('2026-11-17 00:00:00'): 0.36, Timestamp('2026-11-18 00:00:00'): 0.36, Timestamp('2026-11-19 00:00:00'): 0.36, Timestamp('2026-11-20 00:00:00'): 0.36}

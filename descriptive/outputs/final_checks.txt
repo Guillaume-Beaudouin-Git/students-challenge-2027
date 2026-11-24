@@ -1,0 +1,7 @@
+S&P 500: close 20 Nov 6910.39, close 23 Nov 7237.17, change +4.73% | VIX close 23 Nov 26.62
+WTI futures: monthly average Oct 2025 60.1, Mar 2026 91.0, Oct 2026 96.9 | close 20 Nov 84.0
+WTI over a year: October 2026 +61% | March 2027 if the price stays at the 20 Nov close -8%
+Schneider: free cash flow, trailing 5.37 bn | market value 132.9 bn | yield 4.05%
+Schneider: implied ten-year growth of that cash flow at 8.5% discount, 2.5% terminal growth: 7.31% against market value (the basis of the 4.0% yield) | 8.82% against enterprise value (earlier draft, mixed basis)
+Schneider 2025 accounts: operating cash flow 6.13 bn, capital expenditure 1.54 bn, kept 75%
+Microsoft + Alphabet + Meta, last four quarters: operating cash flow 508.5 bn, capital expenditure 400.2 bn (79%), kept 21%

@@ -23,7 +23,9 @@ The order of the commits is the point:
    (`rule_ceiling_today.py`), the carbon intensity of sovereign issuers (`sovereign_carbon.py`),
    the arithmetic of the stock example (`stock_example.py`), the weight of the largest AI names in
    the index (`index_concentration.py`), the bet of Logbook entry 005 with its unfavourable periods
-   (`the_bet.py`) and listed proxies of private assets (`private_proxies.py`). **Descriptive, on public data, written after the results above were
+   (`the_bet.py`), the returns of each asset class in the two shocks of 2026 (`market_2026.py`), the
+   last checks on oil, Schneider and AI spending (`final_checks.py`) and listed proxies of private
+   assets (`private_proxies.py`). **Descriptive, on public data, written after the results above were
    known. None of it is pre-registered.**
 6. [`logbook/`](logbook/) — the Logbook: every decision written before the order and scored after
    it. Five entries so far, all proposals. Their fingerprints are time-stamped too.

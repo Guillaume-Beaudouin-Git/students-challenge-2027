@@ -63,3 +63,11 @@ for ticker, name in (("SU.PA", "Schneider Electric"), ("ETN", "Eaton"), ("ABBN.S
     if ticker == "SU.PA":
         line += " | growth the price needs for ten years: %.1f%% a year" % (implied_growth(fcf, mcap) * 100)
     print(line)
+
+# What the business earns on its capital: operating income of the last fiscal year after tax, over
+# invested capital, both as Yahoo Finance reports them.
+_t = yf.Ticker("SU.PA")
+_inc, _bs = _t.income_stmt, _t.balance_sheet
+_ebit, _tax, _capital = float(_inc.loc["Operating Income"].iloc[0]), float(_inc.loc["Tax Rate For Calcs"].iloc[0]), float(_bs.loc["Invested Capital"].iloc[0])
+print("Schneider, fiscal year to %s: operating income %.2fbn, tax rate %.1f%%, invested capital %.1fbn -> return on invested capital %.1f%%"
+      % (_inc.columns[0].date(), _ebit / 1e9, _tax * 100, _capital / 1e9, _ebit * (1 - _tax) / _capital * 100))
