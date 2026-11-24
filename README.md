@@ -11,6 +11,9 @@ The order of the commits is the point:
    **before** the data were downloaded and the code was run.
 2. The code and its tests.
 3. One execution, and its results, published whatever they are.
+4. [`POST_REVIEW.md`](POST_REVIEW.md) — what an independent review took away from our
+   reading of the result, what survives, and one sentence of the specification clarified.
+   **Not pre-registered**: it was written after the results were known.
 
 `probe_coverage.py` is the only script that ran before the freeze. It reads first and last
 dates and row counts, and computes no return.

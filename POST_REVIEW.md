@@ -53,3 +53,15 @@ specify, time-stamp and run a second test combining a lower target, the maturity
 slower re-risking, with the criterion written here first: **at most 5% of 63-session windows
 above the cap.** These data have been seen, so that test cannot be a proof. The management
 period of the Challenge is the out-of-sample test.
+
+## One sentence of the specification, clarified
+
+The specification says that "between two trades the portfolio is held at its standing target".
+The same review pointed out that this can be read in two ways. The code reads it as follows: on
+every session the portfolio earns `w × equity + (1 − w) × bond`, where `w` is the target in
+force (`riskbudget/core.py`, `mix_returns`). That amounts to rebalancing to the target every
+day; the weights do not drift between two weekly decisions. The equity block is defined the
+same way in the specification ("fixed mix, rebalanced daily").
+
+The specification is time-stamped and is not edited. This note records the reading that the
+single run implements. The other reading, weights left to drift within the week, was not run.
