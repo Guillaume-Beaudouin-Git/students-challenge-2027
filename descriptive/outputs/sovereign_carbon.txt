@@ -1,11 +1,12 @@
-tonnes of CO2e per $1m of GDP at purchasing-power parity, 2024 (land use: 2023 flow)
-  United States  emissions   5912.6 Mt | land use   -921.8 Mt | PPP GDP   29298.0 $bn | excluding land use  201.8 | including  170.3 | at current GDP  201.8
-  Germany        emissions    674.4 Mt | land use    +59.9 Mt | PPP GDP    6176.6 $bn | excluding land use  109.2 | including  118.9 | at current GDP  143.9
-  France         emissions    378.1 Mt | land use    -38.9 Mt | PPP GDP    4286.2 $bn | excluding land use   88.2 | including   79.2 | at current GDP  119.6
-  Italy          emissions    371.2 Mt | land use    -54.4 Mt | PPP GDP    3672.3 $bn | excluding land use  101.1 | including   86.3 | at current GDP  155.7
-  Spain          emissions    285.6 Mt | land use    -51.5 Mt | PPP GDP    2836.3 $bn | excluding land use  100.7 | including   82.6 | at current GDP  165.5
-  Netherlands    emissions    145.0 Mt | land use     +3.1 Mt | PPP GDP    1533.4 $bn | excluding land use   94.6 | including   96.6 | at current GDP  119.5
-  Euro area      emissions   2462.9 Mt | land use   -100.8 Mt | PPP GDP   23590.0 $bn | excluding land use  104.4 | including  100.1 | at current GDP  148.4
-ratio United States / euro area: excluding land use 1.93 | including 1.70 | at current GDP, excluding 1.36
-emissions attributed to $45m of US Treasuries: 9081 tonnes a year excluding land use, 7666 including
-emissions attributed to $55m of US Treasuries (no green bonds): 11100 tonnes a year excluding land use, 9369 including
+tonnes of CO2e per $1m of GDP at purchasing-power parity, 2023
+  United States  emissions   5891.0 Mt | land use   -921.8 Mt | PPP GDP   27811.5 $bn | excluding land use  211.8 | including  178.7 | at current GDP  211.8
+  Germany        emissions    685.7 Mt | land use    +59.9 Mt | PPP GDP    6018.5 $bn | excluding land use  113.9 | including  123.9 | at current GDP  150.3
+  France         emissions    390.7 Mt | land use    -38.9 Mt | PPP GDP    4165.7 $bn | excluding land use   93.8 | including   84.5 | at current GDP  127.9
+  Italy          emissions    378.5 Mt | land use    -54.4 Mt | PPP GDP    3559.7 $bn | excluding land use  106.3 | including   91.1 | at current GDP  163.4
+  Spain          emissions    286.9 Mt | land use    -51.5 Mt | PPP GDP    2691.4 $bn | excluding land use  106.6 | including   87.5 | at current GDP  177.1
+  Netherlands    emissions    149.5 Mt | land use     +3.1 Mt | PPP GDP    1437.2 $bn | excluding land use  104.0 | including  106.2 | at current GDP  131.7
+  Euro area      emissions   2506.8 Mt | land use   -100.8 Mt | PPP GDP   22737.3 $bn | excluding land use  110.3 | including  105.8 | at current GDP  157.1
+ratio United States / euro area: excluding land use 1.92 | including 1.69 | at current GDP, excluding 1.35
+emissions attributed to $45m of US Treasuries: 9532 tonnes a year excluding land use, 8040 including
+emissions attributed to $55m of US Treasuries (no green bonds): 11650 tonnes a year excluding land use, 9827 including
+for reference, 2024, excluding land use only: {'United States': 201.8, 'Germany': 109.2, 'France': 88.2, 'Italy': 101.1, 'Spain': 100.7, 'Netherlands': 94.6, 'Euro area': 104.4}
