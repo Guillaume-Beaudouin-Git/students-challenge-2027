@@ -78,7 +78,7 @@ def fig_vol_cap() -> None:
     ax2.axhline(20, color=GREY, linewidth=0.5)
     ax2.axhline(80, color=GREY, linewidth=0.5)
     ax2.text(0.0, 1.1, "Equity weight set by the rule each week", transform=ax2.transAxes, fontsize=7.2, color=INK, va="bottom", ha="left")
-    ax.text(0.0, 1.0, "63-session volatility", transform=ax.transAxes, fontsize=7.2, color=INK, va="top", ha="left")
+    ax.text(0.0, 1.0, "Three-month volatility (63 sessions)", transform=ax.transAxes, fontsize=7.2, color=INK, va="top", ha="left")
     for side in ("top", "right", "left"):
         ax2.spines[side].set_visible(False)
     ax2.xaxis.set_major_locator(mdates.YearLocator(2))
