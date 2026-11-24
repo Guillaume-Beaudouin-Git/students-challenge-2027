@@ -39,7 +39,7 @@ def fig_vol_cap() -> None:
     w = d["w_rule"].loc[v.index] * 100
     w_static = pr_json["static_equal_volatility"]["equity_weight"] * 100
 
-    fig, (ax, ax2) = plt.subplots(2, 1, figsize=(6.89, 2.05), sharex=True,
+    fig, (ax, ax2) = plt.subplots(2, 1, figsize=(6.89, 1.92), sharex=True,
                                   gridspec_kw={"height_ratios": [3.0, 1], "hspace": 0.14})
     ax.fill_between(v.index, v["vol63_STATIC"], color=LIGHT, linewidth=0)
     ax.plot(v.index, v["vol63_STATIC"], color=GREY, linewidth=0.7)
