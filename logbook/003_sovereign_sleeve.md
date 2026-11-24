@@ -4,7 +4,7 @@
 |---|---|
 | Date | 24 November 2026 |
 | Owner | Ewan Morellec (macro seat) |
-| Challenger | Tom Artur (chair) |
+| Challenger | Tom Artur (strategy seat, deputy chair) |
 | Status | Proposal, not yet voted |
 | Review | Federal Reserve meeting of 9 December 2026; each US inflation release |
 
@@ -48,16 +48,16 @@ the open question. It rose 0.3% in October, for the third month running.
 
 ## Condition
 
-We go to about 5 years once US core inflation prints 0.2% or less two months running. Half a
+We go to about 5 years once US core inflation is 0.2% or less two months running. Half a
 point less on yields then adds about 1.3% to the allocation of our central scenario.
 
 ## Objection
 
-*At 2.5 years we give up the protection Treasuries gave in the AI correction, when 7–10-year bonds
-gained 3.2%.*
+*Tom: at 2.5 years we give up the protection Treasuries gave in the AI correction, when 7–10-year
+bonds gained 3.2%.*
 
-Answer: in the oil shock the same bonds lost 2.3% while equities fell. We lengthen when the
-condition is met, and at once if the "AI de-rating" scenario is declared.
+Ewan: in the oil shock the same bonds lost 2.3% while equities fell. We lengthen when the condition
+is met, and at once if the "AI sell-off" scenario is declared.
 
 ## Wrong if
 

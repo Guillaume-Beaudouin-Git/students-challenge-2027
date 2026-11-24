@@ -10,12 +10,12 @@
    "from": "2008-09-12",
    "to": "2009-03-09",
    "opening allocation": {
-    "return": -0.1587,
+    "return": -0.1588,
     "peak_vol_63": 0.2352
    },
    "central scenario allocation": {
-    "return": -0.1721,
-    "peak_vol_63": 0.268
+    "return": -0.1722,
+    "peak_vol_63": 0.2681
    },
    "reference mix 35/55/10": {
     "return": -0.1461,
@@ -35,12 +35,12 @@
    "from": "2011-07-22",
    "to": "2011-10-03",
    "opening allocation": {
-    "return": -0.057,
-    "peak_vol_63": 0.117
+    "return": -0.0572,
+    "peak_vol_63": 0.1171
    },
    "central scenario allocation": {
-    "return": -0.0499,
-    "peak_vol_63": 0.1219
+    "return": -0.0501,
+    "peak_vol_63": 0.122
    },
    "reference mix 35/55/10": {
     "return": -0.0535,
@@ -60,11 +60,11 @@
    "from": "2013-05-21",
    "to": "2013-09-05",
    "opening allocation": {
-    "return": -0.0177,
+    "return": -0.0175,
     "peak_vol_63": 0.0537
    },
    "central scenario allocation": {
-    "return": -0.0328,
+    "return": -0.0326,
     "peak_vol_63": 0.0664
    },
    "reference mix 35/55/10": {
@@ -85,12 +85,12 @@
    "from": "2020-02-19",
    "to": "2020-03-23",
    "opening allocation": {
-    "return": -0.1156,
-    "peak_vol_63": 0.18
+    "return": -0.115,
+    "peak_vol_63": 0.1796
    },
    "central scenario allocation": {
-    "return": -0.1235,
-    "peak_vol_63": 0.1995
+    "return": -0.1229,
+    "peak_vol_63": 0.1991
    },
    "reference mix 35/55/10": {
     "return": -0.1047,
@@ -110,12 +110,12 @@
    "from": "2022-01-03",
    "to": "2022-10-14",
    "opening allocation": {
-    "return": -0.1009,
-    "peak_vol_63": 0.1006
+    "return": -0.1016,
+    "peak_vol_63": 0.1007
    },
    "central scenario allocation": {
-    "return": -0.1416,
-    "peak_vol_63": 0.1281
+    "return": -0.1422,
+    "peak_vol_63": 0.1282
    },
    "reference mix 35/55/10": {
     "return": -0.1495,
@@ -135,12 +135,12 @@
    "from": "2026-02-27",
    "to": "2026-03-31",
    "opening allocation": {
-    "return": -0.014,
-    "peak_vol_63": 0.0529
+    "return": -0.0141,
+    "peak_vol_63": 0.0532
    },
    "central scenario allocation": {
-    "return": -0.0217,
-    "peak_vol_63": 0.0695
+    "return": -0.0218,
+    "peak_vol_63": 0.0698
    },
    "reference mix 35/55/10": {
     "return": -0.0291,
@@ -160,12 +160,12 @@
    "from": "2026-10-06",
    "to": "2026-11-20",
    "opening allocation": {
-    "return": -0.0218,
-    "peak_vol_63": 0.0431
+    "return": -0.0224,
+    "peak_vol_63": 0.0433
    },
    "central scenario allocation": {
-    "return": -0.0223,
-    "peak_vol_63": 0.0541
+    "return": -0.0229,
+    "peak_vol_63": 0.0544
    },
    "reference mix 35/55/10": {
     "return": -0.0245,
@@ -183,23 +183,23 @@
  ],
  "full_sample": {
   "opening allocation": {
-   "sessions_above_cap": 0.0618,
+   "sessions_above_cap": 0.062,
    "sessions_above_9": 0.0823,
    "highest_vol_63": 0.2352,
    "highest_vol_date": "2008-12-16",
-   "vol": 0.0619,
+   "vol": 0.062,
    "by_year": {
     "2008": 58,
     "2009": 117,
-    "2011": 39,
+    "2011": 40,
     "2020": 73,
     "2022": 3
    }
   },
   "central scenario allocation": {
-   "sessions_above_cap": 0.103,
-   "sessions_above_9": 0.136,
-   "highest_vol_63": 0.268,
+   "sessions_above_cap": 0.1045,
+   "sessions_above_9": 0.1354,
+   "highest_vol_63": 0.2681,
    "highest_vol_date": "2008-12-16",
    "vol": 0.0714,
    "by_year": {
@@ -209,7 +209,7 @@
     "2020": 78,
     "2022": 102,
     "2023": 16,
-    "2025": 40
+    "2025": 47
    }
   },
   "reference mix 35/55/10": {

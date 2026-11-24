@@ -15,21 +15,21 @@ Euro crisis, US downgrade: 2011-07-22 to 2011-10-03 (50 sessions)
   20% equities, 80% bills                                        return   -4.1% | highest 63-session volatility   7.9%
 
 Taper tantrum: 2013-05-21 to 2013-09-05 (74 sessions)
-  opening allocation                                             return   -1.8% | highest 63-session volatility   5.4%
+  opening allocation                                             return   -1.7% | highest 63-session volatility   5.4%
   central scenario allocation                                    return   -3.3% | highest 63-session volatility   6.6%
   reference mix 35/55/10                                         return   -2.2% | highest 63-session volatility   5.9%
   after the breach procedure (23% equities, bonds under 2 years) return   -0.3% | highest 63-session volatility   3.5%
   20% equities, 80% bills                                        return   -0.2% | highest 63-session volatility   3.0%
 
 Covid: 2020-02-19 to 2020-03-23 (23 sessions)
-  opening allocation                                             return  -11.6% | highest 63-session volatility  18.0%
-  central scenario allocation                                    return  -12.4% | highest 63-session volatility  19.9%
+  opening allocation                                             return  -11.5% | highest 63-session volatility  18.0%
+  central scenario allocation                                    return  -12.3% | highest 63-session volatility  19.9%
   reference mix 35/55/10                                         return  -10.5% | highest 63-session volatility  18.5%
   after the breach procedure (23% equities, bonds under 2 years) return   -7.7% | highest 63-session volatility  12.9%
   20% equities, 80% bills                                        return   -7.2% | highest 63-session volatility  11.4%
 
 Inflation and rate rises: 2022-01-03 to 2022-10-14 (197 sessions)
-  opening allocation                                             return  -10.1% | highest 63-session volatility  10.1%
+  opening allocation                                             return  -10.2% | highest 63-session volatility  10.1%
   central scenario allocation                                    return  -14.2% | highest 63-session volatility  12.8%
   reference mix 35/55/10                                         return  -14.9% | highest 63-session volatility  11.8%
   after the breach procedure (23% equities, bonds under 2 years) return   -7.5% | highest 63-session volatility   6.6%
@@ -37,21 +37,21 @@ Inflation and rate rises: 2022-01-03 to 2022-10-14 (197 sessions)
 
 Oil shock: 2026-02-27 to 2026-03-31 (22 sessions)
   opening allocation                                             return   -1.4% | highest 63-session volatility   5.3%
-  central scenario allocation                                    return   -2.2% | highest 63-session volatility   6.9%
+  central scenario allocation                                    return   -2.2% | highest 63-session volatility   7.0%
   reference mix 35/55/10                                         return   -2.9% | highest 63-session volatility   7.6%
   after the breach procedure (23% equities, bonds under 2 years) return   -1.4% | highest 63-session volatility   4.4%
   20% equities, 80% bills                                        return   -1.0% | highest 63-session volatility   3.4%
 
 AI correction: 2026-10-06 to 2026-11-20 (33 sessions)
   opening allocation                                             return   -2.2% | highest 63-session volatility   4.3%
-  central scenario allocation                                    return   -2.2% | highest 63-session volatility   5.4%
+  central scenario allocation                                    return   -2.3% | highest 63-session volatility   5.4%
   reference mix 35/55/10                                         return   -2.5% | highest 63-session volatility   5.8%
   after the breach procedure (23% equities, bonds under 2 years) return   -1.8% | highest 63-session volatility   3.6%
   20% equities, 80% bills                                        return   -1.7% | highest 63-session volatility   3.2%
 
 full sample:
-  opening allocation                                             {'sessions_above_cap': 0.0618, 'sessions_above_9': 0.0823, 'highest_vol_63': 0.2352, 'highest_vol_date': '2008-12-16', 'vol': 0.0619, 'by_year': {2008: 58, 2009: 117, 2011: 39, 2020: 73, 2022: 3}}
-  central scenario allocation                                    {'sessions_above_cap': 0.103, 'sessions_above_9': 0.136, 'highest_vol_63': 0.268, 'highest_vol_date': '2008-12-16', 'vol': 0.0714, 'by_year': {2008: 61, 2009: 129, 2011: 57, 2020: 78, 2022: 102, 2023: 16, 2025: 40}}
+  opening allocation                                             {'sessions_above_cap': 0.062, 'sessions_above_9': 0.0823, 'highest_vol_63': 0.2352, 'highest_vol_date': '2008-12-16', 'vol': 0.062, 'by_year': {2008: 58, 2009: 117, 2011: 40, 2020: 73, 2022: 3}}
+  central scenario allocation                                    {'sessions_above_cap': 0.1045, 'sessions_above_9': 0.1354, 'highest_vol_63': 0.2681, 'highest_vol_date': '2008-12-16', 'vol': 0.0714, 'by_year': {2008: 61, 2009: 129, 2011: 57, 2020: 78, 2022: 102, 2023: 16, 2025: 47}}
   reference mix 35/55/10                                         {'sessions_above_cap': 0.0846, 'sessions_above_9': 0.1264, 'highest_vol_63': 0.2503, 'highest_vol_date': '2008-12-16', 'vol': 0.0673, 'by_year': {2008: 59, 2009: 117, 2011: 62, 2020: 77, 2022: 80, 2023: 2}}
   after the breach procedure (23% equities, bonds under 2 years) {'sessions_above_cap': 0.0326, 'sessions_above_9': 0.0409, 'highest_vol_63': 0.1708, 'highest_vol_date': '2008-12-16', 'vol': 0.045, 'by_year': {2008: 56, 2009: 36, 2020: 61}}
   20% equities, 80% bills                                        {'sessions_above_cap': 0.0284, 'sessions_above_9': 0.0324, 'highest_vol_63': 0.1508, 'highest_vol_date': '2008-12-16', 'vol': 0.0396, 'by_year': {2008: 51, 2009: 29, 2020: 53}}

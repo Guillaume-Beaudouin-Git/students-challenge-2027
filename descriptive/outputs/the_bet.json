@@ -1,0 +1,402 @@
+{
+ "weights_%_of_sleeve": {
+  "six_ours": 9.17,
+  "six_index": 18.33,
+  "networks_ours": 15.0,
+  "utilities_index": 2.5
+ },
+ "active_weights_points_of_sleeve": {
+  "six": -9.17,
+  "networks": 12.5
+ },
+ "periods": {
+  "2023": {
+   "six_%": 121.9,
+   "networks_%": 5.6,
+   "index_%": 23.9,
+   "bet_points_of_sleeve": -11.27,
+   "bet_%_of_portfolio": -3.38
+  },
+  "2024": {
+   "six_%": 75.5,
+   "networks_%": 1.2,
+   "index_%": 18.7,
+   "bet_points_of_sleeve": -7.39,
+   "bet_%_of_portfolio": -2.22
+  },
+  "2025": {
+   "six_%": 35.1,
+   "networks_%": 29.9,
+   "index_%": 21.4,
+   "bet_points_of_sleeve": -0.19,
+   "bet_%_of_portfolio": -0.06
+  },
+  "2026 to 20 Nov": {
+   "six_%": -10.9,
+   "networks_%": 8.7,
+   "index_%": 1.6,
+   "bet_points_of_sleeve": 2.03,
+   "bet_%_of_portfolio": 0.61
+  },
+  "oil shock, 27 Feb - 31 Mar 2026": {
+   "six_%": -4.4,
+   "networks_%": -5.5,
+   "index_%": -5.7,
+   "bet_points_of_sleeve": -0.1,
+   "bet_%_of_portfolio": -0.03
+  },
+  "between the two shocks, 31 Mar - 6 Oct 2026": {
+   "six_%": 34.6,
+   "networks_%": -6.7,
+   "index_%": 17.3,
+   "bet_points_of_sleeve": -4.59,
+   "bet_%_of_portfolio": -1.38
+  },
+  "AI correction, 6 Oct - 20 Nov 2026": {
+   "six_%": -25.2,
+   "networks_%": 8.2,
+   "index_%": -10.6,
+   "bet_points_of_sleeve": 3.69,
+   "bet_%_of_portfolio": 1.11
+  }
+ },
+ "with_the_three_left_out_networks_%": {
+  "2023": 3.5,
+  "2024": 5.1,
+  "2025": 28.3,
+  "2026 to 20 Nov": 9.2,
+  "oil shock, 27 Feb - 31 Mar 2026": -4.5,
+  "between the two shocks, 31 Mar - 6 Oct 2026": -6.6,
+  "AI correction, 6 Oct - 20 Nov 2026": 7.7
+ },
+ "after_the_cut_off_by_day": {
+  "2026-11-23": {
+   "six_%": 11.8,
+   "networks_%": 0.4,
+   "index_%": 4.2,
+   "bet_%_of_portfolio": -0.35
+  },
+  "2026-11-24": {
+   "six_%": -2.3,
+   "networks_%": 0.8,
+   "index_%": -0.4,
+   "bet_%_of_portfolio": 0.1
+  }
+ },
+ "ai_correction_to_last_close": {
+  "last_close": "2026-11-24",
+  "six_%": -18.3,
+  "networks_%": 9.5,
+  "index_%": -7.2,
+  "bet_points_of_sleeve": 3.11,
+  "bet_%_of_portfolio": 0.93
+ },
+ "windows_of_63_sessions_since_2016_%_of_portfolio": {
+  "worst": -1.27,
+  "worst_window_ends": "2025-07-17",
+  "best": 1.68,
+  "median": -0.24,
+  "5th_percentile": -0.86,
+  "95th_percentile": 0.66,
+  "share_of_windows_that_lose_%": 74
+ },
+ "windows_of_63_sessions_since_2023_%_of_portfolio": {
+  "worst": -1.27,
+  "worst_window_ends": "2025-07-17",
+  "best": 1.68,
+  "median": -0.33,
+  "5th_percentile": -0.95,
+  "95th_percentile": 0.7,
+  "share_of_windows_that_lose_%": 77
+ },
+ "after_a_fall_of_20%_of_the_six": [
+  {
+   "date": "2018-10-29",
+   "sessions_available": 63,
+   "bet_next_63_sessions_%_of_portfolio": 0.25
+  },
+  {
+   "date": "2020-03-09",
+   "sessions_available": 63,
+   "bet_next_63_sessions_%_of_portfolio": -1.01
+  },
+  {
+   "date": "2022-01-25",
+   "sessions_available": 63,
+   "bet_next_63_sessions_%_of_portfolio": 0.38
+  },
+  {
+   "date": "2025-03-31",
+   "sessions_available": 63,
+   "bet_next_63_sessions_%_of_portfolio": -0.72
+  },
+  {
+   "date": "2026-11-20",
+   "sessions_available": 0,
+   "bet_next_63_sessions_%_of_portfolio": 0.0
+  }
+ ],
+ "how_it_moves_weekly_since_2023": {
+  "weeks": 204,
+  "from": "2022-12-30",
+  "beta_of_the_bet_to_the_index": [
+   -0.145,
+   0.015
+  ],
+  "networks_%_per_0.10_point_on_the_10y_yield": [
+   -0.74,
+   0.1
+  ],
+  "networks_loading_on_the_six_less_the_rest": [
+   -0.29,
+   0.04
+  ],
+  "schneider_loading_on_the_six_less_the_rest": [
+   0.02,
+   0.07
+  ],
+  "networks_beta_to_the_six_in_2026": [
+   -0.1,
+   0.09
+  ],
+  "volatility_2026_%": {
+   "six": 29.6,
+   "net": 17.1,
+   "idx": 15.0
+  },
+  "tracking_error_of_the_bet_2026_points_of_sleeve": 4.01,
+  "share_of_the_autumn_gain_due_to_lower_market_exposure_%": 42
+ },
+ "ten_year_yield_%": {
+  "31 Mar 2026": 4.3,
+  "6 Oct 2026": 5.27,
+  "20 Nov 2026": 4.92,
+  "2026 high": 5.31,
+  "2026 high date": "2026-10-05"
+ },
+ "cash": {
+  "per_company": {
+   "NVDA": {
+    "cfo": 158.9,
+    "capex": 10.1,
+    "dep": 4.2,
+    "sbc": 7.7,
+    "debt_issued_net": 23.9,
+    "net_income": 226.3,
+    "latest_quarter": "2026-07-31",
+    "cfo_q": 24.1,
+    "capex_q": 2.7,
+    "quarter_a_year_before": "2025-07-31",
+    "cfo_q_before": 15.4,
+    "capex_q_before": 1.9,
+    "mcap": 3031.2
+   },
+   "MSFT": {
+    "cfo": 195.9,
+    "capex": 135.9,
+    "dep": 42.1,
+    "sbc": 12.6,
+    "debt_issued_net": -7.8,
+    "net_income": 142.6,
+    "latest_quarter": "2026-09-30",
+    "cfo_q": 58.0,
+    "capex_q": 39.4,
+    "quarter_a_year_before": "2025-09-30",
+    "cfo_q_before": 45.1,
+    "capex_q_before": 19.4,
+    "mcap": 3598.1
+   },
+   "GOOGL": {
+    "cfo": 179.6,
+    "capex": 159.8,
+    "dep": 28.0,
+    "sbc": 30.4,
+    "debt_issued_net": 96.6,
+    "net_income": 235.7,
+    "latest_quarter": "2026-09-30",
+    "cfo_q": 42.3,
+    "capex_q": 51.4,
+    "quarter_a_year_before": "2025-09-30",
+    "cfo_q_before": 48.4,
+    "capex_q_before": 24.0,
+    "mcap": 3261.5
+   },
+   "AMZN": {
+    "cfo": 168.3,
+    "capex": 215.2,
+    "dep": 79.4,
+    "sbc": 19.9,
+    "debt_issued_net": 124.1,
+    "net_income": 134.8,
+    "latest_quarter": "2026-09-30",
+    "cfo_q": 42.4,
+    "capex_q": 77.3,
+    "quarter_a_year_before": "2025-09-30",
+    "cfo_q_before": 35.5,
+    "capex_q_before": 35.1,
+    "mcap": 2668.9
+   },
+   "AVGO": {
+    "cfo": 40.7,
+    "capex": 1.2,
+    "dep": 8.8,
+    "sbc": 8.5,
+    "debt_issued_net": -5.2,
+    "net_income": 38.3,
+    "latest_quarter": "2026-07-31",
+    "cfo_q": 14.2,
+    "capex_q": 0.5,
+    "quarter_a_year_before": "2025-07-31",
+    "cfo_q_before": 7.2,
+    "capex_q_before": 0.1,
+    "mcap": 1453.1
+   },
+   "META": {
+    "cfo": 133.1,
+    "capex": 104.4,
+    "dep": 24.9,
+    "sbc": 26.9,
+    "debt_issued_net": 51.3,
+    "net_income": 75.2,
+    "latest_quarter": "2026-09-30",
+    "cfo_q": 32.8,
+    "capex_q": 33.9,
+    "quarter_a_year_before": "2025-09-30",
+    "cfo_q_before": 30.0,
+    "capex_q_before": 18.8,
+    "mcap": 1433.6
+   }
+  },
+  "the_six": {
+   "operating_cash_flow_bn": 876,
+   "capex_bn": 627,
+   "free_cash_flow_bn": 250,
+   "depreciation_bn": 187,
+   "net_income_bn": 853,
+   "stock_based_compensation_bn": 106,
+   "debt_issued_net_bn": 283,
+   "market_value_bn": 15446,
+   "capex_over_cfo_%": 71.5,
+   "capex_over_depreciation": 3.35,
+   "fcf_yield_%": 1.62,
+   "price_to_earnings": 18.1,
+   "growth_needed_on_free_cash_flow_%": 19.4,
+   "same_at_7.5%_and_9.5%_discount": [
+    16.5,
+    21.9
+   ],
+   "growth_needed_on_free_cash_flow_after_stock_pay_%": 26.8,
+   "growth_needed_on_net_income_%": 3.3,
+   "latest_quarter": {
+    "operating_cash_flow_bn": 214,
+    "capex_bn": 205,
+    "free_cash_flow_bn": 9
+   },
+   "same_quarter_a_year_before": {
+    "operating_cash_flow_bn": 182,
+    "capex_bn": 99,
+    "free_cash_flow_bn": 82
+   }
+  },
+  "four_buyers": {
+   "operating_cash_flow_bn": 677,
+   "capex_bn": 615,
+   "free_cash_flow_bn": 61,
+   "depreciation_bn": 174,
+   "net_income_bn": 588,
+   "stock_based_compensation_bn": 90,
+   "debt_issued_net_bn": 264,
+   "market_value_bn": 10962,
+   "capex_over_cfo_%": 90.9,
+   "capex_over_depreciation": 3.53,
+   "fcf_yield_%": 0.56,
+   "price_to_earnings": 18.6,
+   "growth_needed_on_free_cash_flow_%": 33.9,
+   "same_at_7.5%_and_9.5%_discount": [
+    30.7,
+    36.9
+   ],
+   "growth_needed_on_free_cash_flow_after_stock_pay_%": NaN,
+   "growth_needed_on_net_income_%": 3.6,
+   "latest_quarter": {
+    "operating_cash_flow_bn": 175,
+    "capex_bn": 202,
+    "free_cash_flow_bn": -26
+   },
+   "same_quarter_a_year_before": {
+    "operating_cash_flow_bn": 159,
+    "capex_bn": 97,
+    "free_cash_flow_bn": 62
+   }
+  },
+  "two_sellers": {
+   "operating_cash_flow_bn": 200,
+   "capex_bn": 11,
+   "free_cash_flow_bn": 188,
+   "depreciation_bn": 13,
+   "net_income_bn": 265,
+   "stock_based_compensation_bn": 16,
+   "debt_issued_net_bn": 19,
+   "market_value_bn": 4484,
+   "capex_over_cfo_%": 5.7,
+   "capex_over_depreciation": 0.88,
+   "fcf_yield_%": 4.2,
+   "price_to_earnings": 17.0,
+   "growth_needed_on_free_cash_flow_%": 6.8,
+   "same_at_7.5%_and_9.5%_discount": [
+    4.4,
+    9.1
+   ],
+   "growth_needed_on_free_cash_flow_after_stock_pay_%": 8.0,
+   "growth_needed_on_net_income_%": 2.4,
+   "latest_quarter": {
+    "operating_cash_flow_bn": 38,
+    "capex_bn": 3,
+    "free_cash_flow_bn": 35
+   },
+   "same_quarter_a_year_before": {
+    "operating_cash_flow_bn": 23,
+    "capex_bn": 2,
+    "free_cash_flow_bn": 20
+   }
+  }
+ },
+ "returns_buyers_and_sellers_%": {
+  "2023": {
+   "buyers": 79.7,
+   "sellers": 204.7
+  },
+  "2024": {
+   "buyers": 34.1,
+   "sellers": 160.7
+  },
+  "2025": {
+   "buyers": 27.3,
+   "sellers": 43.4
+  },
+  "2026 to 20 Nov": {
+   "buyers": -2.1,
+   "sellers": -26.9
+  },
+  "oil shock, 27 Feb - 31 Mar 2026": {
+   "buyers": -5.9,
+   "sellers": -1.8
+  },
+  "between the two shocks, 31 Mar - 6 Oct 2026": {
+   "buyers": 32.5,
+   "sellers": 34.9
+  },
+  "AI correction, 6 Oct - 20 Nov 2026": {
+   "buyers": -13.8,
+   "sellers": -41.6
+  }
+ },
+ "networks_valuation": {
+  "median_price_to_earnings": 18.0,
+  "median_dividend_yield_%": 3.3,
+  "capex_over_operating_cash_flow_%": 125,
+  "dividend_growth_needed_at_8.5%": 9.9,
+  "dividend_growth_needed_at_6.5%": 4.4,
+  "dividend_yield_less_ten_year_yield_points": -1.6
+ }
+}

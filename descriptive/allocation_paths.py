@@ -12,7 +12,7 @@ Proxies: developed equities = 60% SPY + 40% EFA; bills and notes under 2 years =
 Treasuries of 2 to 5 years and dollar supranational bonds = IEI (3 to 7 years, so on the long side);
 Treasuries of 5 to 10 years = IEF; inflation-linked = TIP; commodities = DBC, which holds agricultural
 contracts and gold that the exchange-traded commodity we would buy does not; cash earns the bill return.
-Five points of the equity sleeve are electricity networks and listed infrastructure, proxied by IGF.
+Four and a half points of the equity sleeve are electricity networks, proxied by a listed-infrastructure fund (IGF).
 
     python3 allocation_paths.py > outputs/allocation_paths.txt
 """
@@ -32,9 +32,9 @@ LAMBDA, INIT = 0.94, 60
 # sleeve: (proxy mix, assumed average maturity in years, assumed yield or expected return in % a year,
 #          lines at the open)
 SOFR, BILL, FIVE, TEN, EQUITY_PREMIUM = 3.92, 4.12, 4.70, 4.91, 4.0
-NETWORKS = 5      # points of the equity sleeve held in electricity networks and listed infrastructure
+NETWORKS = 4.5    # points of the equity sleeve held in electricity networks (three lines of 1.5%), proxied by IGF
 SLEEVES = {
-    "Equities, developed markets": ({"E": 1.0}, None, SOFR + EQUITY_PREMIUM, 20),
+    "Equities, developed markets": ({"E": 1.0}, None, SOFR + EQUITY_PREMIUM, 24),     # six AI giants at half weight, three networks, fifteen others
     "Treasury bills and notes under 2 years": ({"BIL": 0.5, "SHY": 0.5}, 0.5, BILL, 6),
     "Treasuries of 2 to 5 years": ({"IEI": 1.0}, 3.5, (BILL + FIVE) / 2, 4),
     "Treasuries of 5 to 10 years": ({"IEF": 1.0}, 7.5, (FIVE + TEN) / 2, 0),

@@ -9,3 +9,4 @@ the entry, correcting it and agreeing to defend it. A signature is one line adde
 | 002 · Schneider Electric after the PTC deal | Alexandre Le Bigaut | | |
 | 003 · Sovereign sleeve | Ewan Morellec | | |
 | 004 · Oil hedge | Tom Artur | | |
+| 005 · The bet | Alexandre Le Bigaut | | |

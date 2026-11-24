@@ -5,14 +5,14 @@
 | Date | 24 November 2026 |
 | Company | Schneider Electric (Paris, in euros) |
 | Owner | Alexandre Le Bigaut (equity seat) |
-| Challenger | Guillaume Beaudouin (risk seat) |
+| Challenger | Guillaume Beaudouin (chair) |
 | Status | Proposal, not yet voted |
 | Review | Full-year results in February 2027; first-quarter sales in late April 2027 |
 
 ## Decision
 
-**Open at the starter size, 1.5% of the portfolio,** on 2 February 2027, if the February results
-meet the conditions below.
+**Open at the starter size, 1.5% of the portfolio,** once the February results meet the conditions
+below.
 
 ## What happened
 
@@ -69,11 +69,11 @@ ESG risk rating. It is also the only one carrying a deal.
 
 ## Objection
 
-*Press estimates put the return on the deal near 8% with every synergy, under a cost of capital
-near 9%. And the share is still a bet on data-centre spending, which our "AI de-rating" scenario
-fears.*
+*Guillaume: press estimates put the return on the deal near 8% with every synergy, under a cost of
+capital near 9%. And the share is still a bet on data-centre spending, which our "AI sell-off"
+scenario fears.*
 
-Answer: the fall has already charged nearly three times the premium. Hence 1.5%, and the first
+Alexandre: the fall already prices in nearly three times the premium. Hence 1.5%, and the first
 line cut if that scenario is declared. We add on results, never on price.
 
 ## History of this entry

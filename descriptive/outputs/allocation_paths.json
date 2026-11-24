@@ -10,17 +10,17 @@
    "Commodities (energy and metals)": 5,
    "Cash": 10
   },
-  "expected_vol_%": 5.618,
-  "expected_vol_31_march_covariances_%": 5.936,
+  "expected_vol_%": 5.674,
+  "expected_vol_31_march_covariances_%": 5.979,
   "vol_points_by_block": {
-   "equities": 5.96,
-   "bonds": -0.39,
+   "equities": 6.02,
+   "bonds": -0.4,
    "commodities": 0.05,
-   "of which networks, inside equities": 0.53
+   "of which networks, inside equities": 0.47
   },
   "replay_return_%": {
-   "oil shock, 27 Feb to 31 Mar 2026": -1.4,
-   "AI correction, 6 Oct to 20 Nov 2026": -2.18
+   "oil shock, 27 Feb to 31 Mar 2026": -1.41,
+   "AI correction, 6 Oct to 20 Nov 2026": -2.24
   },
   "bond_sleeve_%": 55,
   "average_maturity_years": 2.55,
@@ -39,17 +39,17 @@
    "Commodities (energy and metals)": 5,
    "Cash": 3
   },
-  "expected_vol_%": 6.607,
-  "expected_vol_31_march_covariances_%": 7.758,
+  "expected_vol_%": 6.66,
+  "expected_vol_31_march_covariances_%": 7.801,
   "vol_points_by_block": {
-   "equities": 6.79,
-   "bonds": -0.17,
+   "equities": 6.86,
+   "bonds": -0.18,
    "commodities": -0.02,
-   "of which networks, inside equities": 0.52
+   "of which networks, inside equities": 0.47
   },
   "replay_return_%": {
-   "oil shock, 27 Feb to 31 Mar 2026": -2.17,
-   "AI correction, 6 Oct to 20 Nov 2026": -2.23
+   "oil shock, 27 Feb to 31 Mar 2026": -2.18,
+   "AI correction, 6 Oct to 20 Nov 2026": -2.29
   },
   "bond_sleeve_%": 57,
   "average_maturity_years": 4.93,
@@ -68,17 +68,17 @@
    "Commodities (energy and metals)": 0,
    "Cash": 10
   },
-  "expected_vol_%": 7.37,
-  "expected_vol_31_march_covariances_%": 8.474,
+  "expected_vol_%": 7.425,
+  "expected_vol_31_march_covariances_%": 8.521,
   "vol_points_by_block": {
-   "equities": 7.73,
-   "bonds": -0.36,
+   "equities": 7.79,
+   "bonds": -0.37,
    "commodities": -0.0,
-   "of which networks, inside equities": 0.53
+   "of which networks, inside equities": 0.48
   },
   "replay_return_%": {
-   "oil shock, 27 Feb to 31 Mar 2026": -2.8,
-   "AI correction, 6 Oct to 20 Nov 2026": -2.27
+   "oil shock, 27 Feb to 31 Mar 2026": -2.81,
+   "AI correction, 6 Oct to 20 Nov 2026": -2.33
   },
   "bond_sleeve_%": 52,
   "average_maturity_years": 3.84,
@@ -97,17 +97,17 @@
    "Commodities (energy and metals)": 10,
    "Cash": 5
   },
-  "expected_vol_%": 4.821,
-  "expected_vol_31_march_covariances_%": 4.575,
+  "expected_vol_%": 4.874,
+  "expected_vol_31_march_covariances_%": 4.608,
   "vol_points_by_block": {
-   "equities": 4.55,
-   "bonds": -0.35,
+   "equities": 4.61,
+   "bonds": -0.36,
    "commodities": 0.62,
-   "of which networks, inside equities": 0.49
+   "of which networks, inside equities": 0.44
   },
   "replay_return_%": {
-   "oil shock, 27 Feb to 31 Mar 2026": -0.23,
-   "AI correction, 6 Oct to 20 Nov 2026": -2.33
+   "oil shock, 27 Feb to 31 Mar 2026": -0.25,
+   "AI correction, 6 Oct to 20 Nov 2026": -2.39
   },
   "bond_sleeve_%": 60,
   "average_maturity_years": 1.87,
@@ -126,17 +126,17 @@
    "Commodities (energy and metals)": 0,
    "Cash": 5
   },
-  "expected_vol_%": 4.482,
-  "expected_vol_31_march_covariances_%": 6.421,
+  "expected_vol_%": 4.516,
+  "expected_vol_31_march_covariances_%": 6.46,
   "vol_points_by_block": {
-   "equities": 3.41,
-   "bonds": 1.07,
+   "equities": 3.48,
+   "bonds": 1.03,
    "commodities": -0.0,
-   "of which networks, inside equities": 0.48
+   "of which networks, inside equities": 0.43
   },
   "replay_return_%": {
-   "oil shock, 27 Feb to 31 Mar 2026": -2.28,
-   "AI correction, 6 Oct to 20 Nov 2026": -0.24
+   "oil shock, 27 Feb to 31 Mar 2026": -2.29,
+   "AI correction, 6 Oct to 20 Nov 2026": -0.3
   },
   "bond_sleeve_%": 72,
   "average_maturity_years": 4.49,
@@ -146,14 +146,14 @@
  },
  "opening_lines": {
   "per_sleeve": {
-   "Equities, developed markets": 20,
+   "Equities, developed markets": 24,
    "Treasury bills and notes under 2 years": 6,
    "Treasuries of 2 to 5 years": 4,
    "Inflation-linked Treasuries, 5 years": 2,
    "Dollar green bonds, supranational": 3,
    "Commodities (energy and metals)": 2
   },
-  "total": 37,
+  "total": 41,
   "largest_line_%": 4.17
  }
 }

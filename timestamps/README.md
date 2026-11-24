@@ -42,3 +42,21 @@ openssl ts -verify -data logbook/MANIFEST.sha256 -in timestamps/LOGBOOK_2026-11-
 
 An entry that changes later gets a new manifest and a new token; the old ones stay in the history
 of the repository.
+
+## Second token, the same evening
+
+Five entries, after a change of roles in the team and a review of entry 005:
+`LOGBOOK_2026-11-24_v2.tsr`, for the manifest as it stood then.
+
+```
+SHA-256  b3fe05e705e340e144fa6f0f75ba71af6bab3c1cd848d26cba1d9bfb00d0c2c9
+Time     24 November 2026, 22:33:51 GMT
+Serial   0x34488B6C69E58BC7A946EA922B6DD245
+```
+
+```bash
+cd logbook && shasum -a 256 -c MANIFEST.sha256 && cd ..
+openssl ts -verify -data logbook/MANIFEST.sha256 -in timestamps/LOGBOOK_2026-11-24_v2.tsr -CAfile /etc/ssl/cert.pem
+```
+
+The first token covers the four entries as first published (commit `74002b0`).

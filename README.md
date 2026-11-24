@@ -22,11 +22,11 @@ The order of the commits is the point:
    and inflation (`market_pricing.py`), today's ceiling of the rule at several targets
    (`rule_ceiling_today.py`), the carbon intensity of sovereign issuers (`sovereign_carbon.py`),
    the arithmetic of the stock example (`stock_example.py`), the weight of the largest AI names in
-   the index (`index_concentration.py`) and listed proxies of private assets
-   (`private_proxies.py`). **Descriptive, on public data, written after the results above were
+   the index (`index_concentration.py`), the bet of Logbook entry 005 with its unfavourable periods
+   (`the_bet.py`) and listed proxies of private assets (`private_proxies.py`). **Descriptive, on public data, written after the results above were
    known. None of it is pre-registered.**
 6. [`logbook/`](logbook/) — the Logbook: every decision written before the order and scored after
-   it. Four entries so far, all proposals. Their fingerprints are time-stamped too.
+   it. Five entries so far, all proposals. Their fingerprints are time-stamped too.
 
 ## Who we are
 
@@ -34,12 +34,12 @@ Six students of the Master in Money, Banking, Finance and Insurance at the Unive
 
 | Seat | Member |
 |---|---|
-| Portfolio strategy, chair | Tom Artur |
-| Risk budget, research protocol | Guillaume Beaudouin |
-| Macro, sovereign bonds | Ewan Morellec |
-| Equity research | Alexandre Le Bigaut |
+| Chair, risk rule | Guillaume Beaudouin |
 | ESG, stewardship | Juliette Le Gall |
-| Data, AI register, compliance gate | Conrad Agossou |
+| Portfolio strategy, deputy chair | Tom Artur |
+| Macro, sovereign bonds | Ewan Morellec |
+| Equity research, data | Alexandre Le Bigaut |
+| Risk control, AI register | Conrad Agossou |
 
 `probe_coverage.py` is the only script that ran before the freeze. It reads first and last
 dates and row counts, and computes no return.

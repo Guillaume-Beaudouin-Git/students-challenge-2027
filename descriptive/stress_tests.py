@@ -7,8 +7,8 @@ what would each allocation have lost, and how volatile would it have been, if no
 
 Allocations: the opening one; the central scenario's; our reference mix (35% developed equities, 55%
 Treasuries of 3 to 7 years, 10% bills); and where the breach procedure leads, which is equities at our
-internal floor of 23% and every bond under two years. Five points of the equity sleeve of the first
-two are electricity networks and listed infrastructure.
+internal floor of 23% and every bond under two years. Four and a half points of the equity sleeve of the
+first two are electricity networks, proxied by a listed-infrastructure fund (IGF).
 Proxies: developed equities = 60% SPY + 40% EFA; bills and cash = BIL; notes under 2 years = half BIL,
 half SHY; Treasuries of 2 to 5 years and dollar supranational bonds = IEI; Treasuries of 5 to 10 years
 = IEF; inflation-linked = TIP; commodities = DBC; listed infrastructure = IGF. Adjusted closes, Yahoo
@@ -42,8 +42,8 @@ r = px.pct_change().dropna()
 r["E"] = 0.6 * r["SPY"] + 0.4 * r["EFA"]
 
 # weights by proxy; cash is counted with bills
-OPENING = {"E": 0.25, "IGF": 0.05, "BIL": 0.125 + 0.10, "SHY": 0.125, "IEI": 0.15 + 0.10, "TIP": 0.05, "DBC": 0.05}
-CENTRAL = {"E": 0.30, "IGF": 0.05, "BIL": 0.035 + 0.03, "SHY": 0.035, "IEI": 0.15 + 0.10, "IEF": 0.20, "TIP": 0.05, "DBC": 0.05}
+OPENING = {"E": 0.255, "IGF": 0.045, "BIL": 0.125 + 0.10, "SHY": 0.125, "IEI": 0.15 + 0.10, "TIP": 0.05, "DBC": 0.05}
+CENTRAL = {"E": 0.305, "IGF": 0.045, "BIL": 0.035 + 0.03, "SHY": 0.035, "IEI": 0.15 + 0.10, "IEF": 0.20, "TIP": 0.05, "DBC": 0.05}
 REFERENCE = {"E": 0.35, "IEI": 0.55, "BIL": 0.10}      # our reference mix: 35% equities, 55% Treasuries of 3 to 7 years, 10% bills
 AFTER_BREACH = {"E": 0.23, "BIL": 0.385 + 0.05, "SHY": 0.335}
 FLOOR_AND_BILLS = {"E": 0.20, "BIL": 0.80}      # the mandate's equity floor with nothing else at risk
