@@ -27,12 +27,23 @@ def chg(t, a, b):
 def eur_usd(a, b):
     return ((1 + chg("IBGM.AS", a, b) / 100) * (1 + chg("EURUSD=X", a, b) / 100) - 1) * 100
 
-for label, a, b in [("peak->trough 6 Oct -> 20 Nov", "2026-10-06", "2026-11-20"), ("week 13 -> 20 Nov", "2026-11-13", "2026-11-20"),
+for label, a, b in [("oil shock 27 Feb -> 31 Mar", "2026-02-27", "2026-03-31"), ("peak->trough 6 Oct -> 20 Nov", "2026-10-06", "2026-11-20"), ("week 13 -> 20 Nov", "2026-11-13", "2026-11-20"),
                     ("30 Oct -> 20 Nov", "2026-10-30", "2026-11-20"), ("YTD to 20 Nov", "2025-12-31", "2026-11-20"), ("YTD to 24 Nov", "2025-12-31", "2026-11-24")]:
     print(f"\n{label}")
     for t in ["^GSPC", "SPY", "URTH", "EFA", "^IXIC", "SOXX", "IEF", "TLT", "SHY", "BIL", "TIP", "GLD", "IBGM.AS", "EURUSD=X", "BZ=F", "DBC"]:
         print(f"  {t:9s} {chg(t, a, b):+7.1f}%")
     print(f"  {'EUROGOV in USD':9s} {eur_usd(a, b):+7.1f}%")
+
+# The table of page 3 of the application file ("The market in 2026: returns in the two shocks"):
+# one fund per asset class, total return in dollars, close to close.
+ROWS = [("Developed equities", "URTH"), ("US Treasuries", "IEF"), ("Euro sovereigns", None), ("Gold", "GLD"),
+        ("Broad commodities", "DBC"), ("Treasury bills", "BIL")]
+WINDOWS = [("oil shock, 27 Feb - 31 Mar", "2026-02-27", "2026-03-31"), ("AI correction, 6 Oct - 20 Nov", "2026-10-06", "2026-11-20"),
+           ("2026 to 20 Nov", "2025-12-31", "2026-11-20")]
+print("\nTABLE OF PAGE 3 (fund used: URTH, IEF, IBGM.AS converted into dollars, GLD, DBC, BIL)")
+print("  %-20s" % "" + "".join("%32s" % w[0] for w in WINDOWS))
+for name, t in ROWS:
+    print("  %-20s" % name + "".join("%31.1f%%" % (eur_usd(a, b) if t is None else chg(t, a, b)) for _, a, b in WINDOWS))
 
 r = pd.concat({t: P[t].pct_change() for t in ("SPY", "EFA", "IEF", "GLD")}, axis=1).dropna()
 e = 0.6 * r["SPY"] + 0.4 * r["EFA"]

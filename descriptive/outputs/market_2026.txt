@@ -1,4 +1,23 @@
 
+oil shock 27 Feb -> 31 Mar
+  ^GSPC        -5.1%
+  SPY          -4.9%
+  URTH         -5.7%
+  EFA          -7.8%
+  ^IXIC        -4.8%
+  SOXX         -6.7%
+  IEF          -2.3%
+  TLT          -4.2%
+  SHY          -0.5%
+  BIL          +0.3%
+  TIP          -1.4%
+  GLD         -11.1%
+  IBGM.AS      -3.3%
+  EURUSD=X     -2.9%
+  BZ=F        +63.3%
+  DBC         +15.3%
+  EUROGOV in USD    -6.1%
+
 peak->trough 6 Oct -> 20 Nov
   ^GSPC       -11.6%
   SPY         -11.5%
@@ -93,6 +112,15 @@ YTD to 24 Nov
   BZ=F        +45.3%
   DBC         +29.8%
   EUROGOV in USD    -8.7%
+
+TABLE OF PAGE 3 (fund used: URTH, IEF, IBGM.AS converted into dollars, GLD, DBC, BIL)
+                            oil shock, 27 Feb - 31 Mar   AI correction, 6 Oct - 20 Nov                  2026 to 20 Nov
+  Developed equities                             -5.7%                          -10.6%                            1.6%
+  US Treasuries                                  -2.3%                            3.2%                           -1.5%
+  Euro sovereigns                                -6.1%                           -1.1%                           -8.9%
+  Gold                                          -11.1%                          -15.5%                          -18.5%
+  Broad commodities                              15.3%                          -10.3%                           31.1%
+  Treasury bills                                  0.3%                            0.5%                            3.2%
 
 stock-bond daily correlation (E vs IEF): last 63 sessions to 20 Nov: -0.04 | 2026 YTD: 0.29
 equity-gold daily correlation 2026 YTD: 0.47
