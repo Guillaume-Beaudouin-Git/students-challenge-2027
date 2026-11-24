@@ -60,3 +60,13 @@ openssl ts -verify -data logbook/MANIFEST.sha256 -in timestamps/LOGBOOK_2026-11-
 ```
 
 The first token covers the four entries as first published (commit `74002b0`).
+
+## Third token: entry 005 reworded
+
+`LOGBOOK_2026-11-24_v3.tsr`, after the logic of entry 005 was reworded (a review found it too binary).
+
+```
+SHA-256  4590504bf888125dc820a2e4bb0c1c115c3c698270eb08e1724e5634d3d6262f
+Time     Nov 24 22:54:57 2026 GMT
+Serial   0xE797E64890D5CBB7EE331C95A9250E05
+```

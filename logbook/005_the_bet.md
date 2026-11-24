@@ -25,8 +25,9 @@ The bet takes no view on the direction of the market: the total held in shares i
 Four of the six buy the AI build-out (Microsoft, Alphabet, Amazon, Meta). Two sell it to them
 (NVIDIA, Broadcom).
 
-- In the quarter to September 2026 the four spent $202bn on equipment, $26bn more than their
-  operations brought in. In the same quarter a year earlier they had $62bn left.
+- In the quarter to September 2026 the four invested $202bn (capital expenditure, not all of it
+  for AI), $26bn more than their operations brought in. In the same quarter a year earlier they had
+  $62bn left.
 - Over four quarters: $677bn of operating cash flow, $615bn of capital expenditure, $264bn of net
   borrowing. What is left is 0.6% of their market value.
 - Their accounts charge 3.5 times less in depreciation than they spend, so reported earnings do not
@@ -35,9 +36,11 @@ Four of the six buy the AI build-out (Microsoft, Alphabet, Amazon, Meta). Two se
 
 ## The logic
 
-Either the four keep spending more than they earn, or their two suppliers lose orders. One of the two
-must give. The market has charged the sellers far more than the buyers: 42% against 14% in the AI
-correction of the autumn. The index holds 18% in the six. We hold half.
+Cash reserves and borrowing can fill that gap for a time, and the spending may pay. If the gap is
+closed by spending less, the two suppliers lose orders. The market has charged the sellers far more
+than the buyers: 42% against 14% in the AI correction of the autumn. The index holds 18% in the six.
+We hold half. The net borrowing is what their cash-flow statements report for the period; we do not
+claim that it was raised for AI.
 
 ## The other leg
 
@@ -109,7 +112,9 @@ four report between late January and early February, around our first order.
 A first version, written earlier on 24 November 2026, rested on one figure (the growth the price
 needs on free cash flow) and on two favourable periods. A review asked for the unfavourable ones,
 for the days after the cut-off, for the range of the arithmetic and for the same test on the
-networks. This version is the answer.
+networks. This version is the answer. A second review, the same night, found the first statement of
+the logic too binary ("either they keep borrowing, or their suppliers lose orders"): it is reworded
+above.
 
 ## Sources
 
