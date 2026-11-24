@@ -1,0 +1,53 @@
+{
+ "fetched_at_utc": "2026-11-24T18:00:59+00:00",
+ "files": {
+  "SPY": {
+   "file": "SPY.csv",
+   "source": "Yahoo Finance",
+   "rows": 6119,
+   "first": "2002-07-30",
+   "last": "2026-11-20",
+   "sha256": "acb83fe0b8ba793df62f597cb9b04d003beca2b30b89eff46287bca21e8e6c79"
+  },
+  "EFA": {
+   "file": "EFA.csv",
+   "source": "Yahoo Finance",
+   "rows": 6119,
+   "first": "2002-07-30",
+   "last": "2026-11-20",
+   "sha256": "a053312993cf491a97e33126c4f6a887487611a8f1923123084162e8c738a850"
+  },
+  "IEF": {
+   "file": "IEF.csv",
+   "source": "Yahoo Finance",
+   "rows": 6119,
+   "first": "2002-07-30",
+   "last": "2026-11-20",
+   "sha256": "72ae047485879928771498e76f2a47f968750b8c489e05e02d6e57e31f2f4f2b"
+  },
+  "IBGM.AS": {
+   "file": "IBGM_AS.csv",
+   "source": "Yahoo Finance",
+   "rows": 4833,
+   "first": "2008-01-02",
+   "last": "2026-11-20",
+   "sha256": "ff3034dfd11ad4cecb46bd208696afdf9a4a9d4b5c144ebf3ca92c7acfab29b0"
+  },
+  "EURUSD=X": {
+   "file": "EURUSD_X.csv",
+   "source": "Yahoo Finance",
+   "rows": 4920,
+   "first": "2007-12-03",
+   "last": "2026-11-20",
+   "sha256": "e82492c732d6bf8161ee410593d4ad7572cdc80a3a7e116e35f58cb992f8ae74"
+  },
+  "DTB3": {
+   "file": "DTB3.csv",
+   "source": "FRED",
+   "rows": 6365,
+   "first": "2002-07-01",
+   "last": "2026-11-20",
+   "sha256": "d61a7f537fd294e6dca7555b50d2efb212dee79a4488b9c446ea50501c3f4f89"
+  }
+ }
+}
