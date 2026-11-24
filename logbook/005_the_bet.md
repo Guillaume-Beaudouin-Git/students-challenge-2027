@@ -116,6 +116,15 @@ networks. This version is the answer. A second review, the same night, found the
 the logic too binary ("either they keep borrowing, or their suppliers lose orders"): it is reworded
 above.
 
+## Definitions
+
+- Capital expenditure: cash paid for property and equipment, as in each company's cash-flow
+  statement. Finance leases are not included.
+- Net borrowing: net issuance of debt in the same statements over the last four reported quarters,
+  in billions of dollars: Microsoft −8, Alphabet +97, Amazon +124, Meta +51. Total: 264.
+- Networks: regulated operators of electricity networks. Schneider Electric, the stock example of
+  entry 002, is an equipment maker and sits outside this basket.
+
 ## Sources
 
 Prices and cash-flow statements from Yahoo Finance (trailing twelve months and quarters) at

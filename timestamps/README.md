@@ -70,3 +70,14 @@ SHA-256  4590504bf888125dc820a2e4bb0c1c115c3c698270eb08e1724e5634d3d6262f
 Time     Nov 24 22:54:57 2026 GMT
 Serial   0xE797E64890D5CBB7EE331C95A9250E05
 ```
+
+## Fourth token: definitions added to entry 005
+
+`LOGBOOK_2026-11-25_v4.tsr`: entry 005 now defines capital expenditure and net borrowing, with the
+figure for each company.
+
+```
+SHA-256  3327e7bef7dfba7c009df6e11ab19b6ef26feec649ff637e19fbc8b2d5b09d26
+Time     Nov 24 23:26:43 2026 GMT
+Serial   0xB3F078F0E53F58EAB8AE47F1DEBE9CA0
+```
