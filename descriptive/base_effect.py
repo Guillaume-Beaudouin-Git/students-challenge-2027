@@ -77,7 +77,7 @@ label("2027-03", 0.30, -3.0, "right", RED)
 label("2027-04", -0.30, -3.0, "left", RED)
 first_proj = int(actual.sum())
 ax.axvline(first_proj - 0.5, color=GREY, linewidth=0.6, linestyle=(0, (3, 2)))
-ax.text(first_proj - 0.3, 82, f"if Brent stays at ${flat:.0f}", fontsize=6.6, color=INK, va="top", ha="left")
+ax.text(first_proj + 2.0, 66, f"if Brent stays\nat ${flat:.0f}", fontsize=6.6, color=INK, va="top", ha="center", linespacing=1.15)
 ax.set_xlim(-0.75, len(yoy) + 0.55)
 for year, month in (("2026", "2026-01"), ("2027", "2027-01")):
     ax.text(months.index(month), -0.17, year, transform=ax.get_xaxis_transform(), fontsize=6.6, color=GREY, va="top", ha="center")

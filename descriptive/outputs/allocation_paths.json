@@ -10,7 +10,7 @@
    "Commodities without agriculture": 5,
    "Cash": 10
   },
-  "expected_vol_%": 6.2,
+  "expected_vol_%": 6.198,
   "vol_points_by_block": {
    "equities": 6.61,
    "bonds": -0.46,
@@ -27,8 +27,8 @@
  },
  "central scenario": {
   "weights_%": {
-   "Equities, developed markets": 37,
-   "Treasury bills and notes under 2 years": 5,
+   "Equities, developed markets": 35,
+   "Treasury bills and notes under 2 years": 7,
    "Treasuries of 2 to 5 years": 15,
    "Treasuries of 5 to 10 years": 20,
    "Inflation-linked Treasuries, 5 years": 5,
@@ -36,20 +36,20 @@
    "Commodities without agriculture": 5,
    "Cash": 3
   },
-  "expected_vol_%": 7.59,
+  "expected_vol_%": 7.154,
   "vol_points_by_block": {
-   "equities": 7.96,
-   "bonds": -0.36,
-   "commodities": -0.02
+   "equities": 7.47,
+   "bonds": -0.3,
+   "commodities": -0.01
   },
   "replay_return_%": {
-   "oil shock, 27 Feb to 31 Mar 2026": -2.42,
-   "AI correction, 6 Oct to 20 Nov 2026": -3.05
+   "oil shock, 27 Feb to 31 Mar 2026": -2.3,
+   "AI correction, 6 Oct to 20 Nov 2026": -2.83
   },
-  "bond_sleeve_%": 55,
-  "average_maturity_years": 5.09,
-  "non_dollar_%": 12.3,
-  "expected_return_%": 5.78
+  "bond_sleeve_%": 57,
+  "average_maturity_years": 4.93,
+  "non_dollar_%": 11.7,
+  "expected_return_%": 5.7
  },
  "third oil spike": {
   "weights_%": {
@@ -88,7 +88,7 @@
    "Commodities without agriculture": 0,
    "Cash": 5
   },
-  "expected_vol_%": 4.36,
+  "expected_vol_%": 4.358,
   "vol_points_by_block": {
    "equities": 3.29,
    "bonds": 1.06,

@@ -40,8 +40,8 @@ SLEEVES = {
 BONDS = [k for k, v in SLEEVES.items() if v[1] is not None]
 #                         opening  central  oil spike  AI de-rating
 ALLOCATIONS = {
-    "Equities, developed markets":            (30, 37, 25, 20),
-    "Treasury bills and notes under 2 years": (25, 5, 40, 20),
+    "Equities, developed markets":            (30, 35, 25, 20),
+    "Treasury bills and notes under 2 years": (25, 7, 40, 20),
     "Treasuries of 2 to 5 years":             (15, 15, 5, 15),
     "Treasuries of 5 to 10 years":            (0, 20, 0, 25),
     "Inflation-linked Treasuries, 5 years":   (5, 5, 10, 5),
@@ -92,7 +92,7 @@ for k, name in enumerate(NAMES):
     bond_weight = sum(weights[s] for s in BONDS)
     maturity = sum(weights[s] * SLEEVES[s][1] for s in BONDS) / bond_weight
     expected = sum(weights[s] * SLEEVES[s][2] for s in SLEEVES)
-    out[name] = {"weights_%": {s: ALLOCATIONS[s][k] for s in SLEEVES}, "expected_vol_%": round(vol * 100, 2),
+    out[name] = {"weights_%": {s: ALLOCATIONS[s][k] for s in SLEEVES}, "expected_vol_%": round(vol * 100, 3),
                  "vol_points_by_block": {b: round(v, 2) for b, v in blocks.items()}, "replay_return_%": {a: round(v, 2) for a, v in replays.items()},
                  "bond_sleeve_%": round(bond_weight * 100), "average_maturity_years": round(maturity, 2),
                  "non_dollar_%": round(weights["Equities, developed markets"] * NON_DOLLAR_SHARE_OF_EQUITIES * 100, 1),
