@@ -1,0 +1,5 @@
+as of 2026-11-20 | equity volatility 22.7%, Treasury volatility 7.0%, correlation -0.37
+target 8.0% -> equity ceiling 37%
+target 7.0% -> equity ceiling 31%
+target 6.5% -> equity ceiling 28%
+target 6.0% -> equity ceiling 23%

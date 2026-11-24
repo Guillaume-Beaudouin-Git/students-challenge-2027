@@ -1,0 +1,10 @@
+2024: tonnes of CO2e per $1m of PPP-adjusted GDP
+  United States  emissions   5912.6 Mt | GDP   29298.0 $bn | intensity  201.8
+  Germany        emissions    674.4 Mt | GDP    6176.6 $bn | intensity  109.2
+  France         emissions    378.1 Mt | GDP    4286.2 $bn | intensity   88.2
+  Italy          emissions    371.2 Mt | GDP    3672.3 $bn | intensity  101.1
+  Spain          emissions    285.6 Mt | GDP    2836.3 $bn | intensity  100.7
+  Netherlands    emissions    145.0 Mt | GDP    1533.4 $bn | intensity   94.6
+  Euro area      emissions   2462.9 Mt | GDP   23590.0 $bn | intensity  104.4
+ratio United States / euro area: 1.93
+emissions attributed to $45m of US Treasuries: 9081 tonnes a year

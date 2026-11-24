@@ -1,0 +1,6 @@
+Schneider close: 2 Oct 303.00 | 5 Oct 272.80 (-10.0%) | 20 Nov 226.55 (-25.2% from 2 Oct) | 2026 low 226.55 on 2026-11-20
+PTC close on 2 Oct 144.03 -> premium of the offer 42.3%
+premium paid: $6.72bn = EUR 5.97bn at 1.1255
+shares before the placement: 562.6m | value lost on 5 Oct: EUR 17.0bn = 2.8 times the premium
+20 Nov against the placement price of 240: -5.6%
+PTC on 20 Nov: 195.10, -4.8% under the offer

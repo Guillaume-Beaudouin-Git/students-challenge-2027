@@ -1,0 +1,12 @@
+FRED DFEDTARL: 2026-11-20,3.75
+FRED DFEDTARU: 2026-11-20,4.00
+FRED EFFR: 2026-11-20,3.88
+FRED DGS2: 2026-11-20,4.63
+FRED DGS5: 2026-11-20,4.71
+FRED DGS10: 2026-11-20,4.92
+FRED T5YIE: 2026-11-20,2.18
+FRED DFII5: 2026-11-20,2.53
+fed funds future December 2026 (ZQZ26.CBT): close 95.960 on 2026-11-20 -> average effective rate expected 4.04%
+fed funds future January 2027 (ZQF27.CBT): close 95.880 on 2026-11-20 -> average effective rate expected 4.12%
+fed funds future June 2027 (ZQM27.CBT): close 95.560 on 2026-11-20 -> average effective rate expected 4.44%
+fed funds future December 2027 (ZQZ27.CBT): close 95.580 on 2026-11-20 -> average effective rate expected 4.42%

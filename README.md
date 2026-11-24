@@ -15,11 +15,31 @@ The order of the commits is the point:
    reading of the result, what survives, and one sentence of the specification clarified.
    **Not pre-registered**: it was written after the results were known.
 
-5. [`descriptive/`](descriptive/) — three scripts behind other exhibits of the application file,
-   with their saved outputs: the opening allocation and the allocations of our three scenarios
-   (`allocation_paths.py`), the opening allocation replayed through five past shocks
-   (`stress_tests.py`) and the base effect on Brent (`base_effect.py`). **Descriptive, on fund
-   proxies, written after the results above were known. None of it is pre-registered.**
+5. [`descriptive/`](descriptive/) — the scripts behind the other exhibits of the application file,
+   with their saved outputs: the opening allocation and the allocations of our four scenarios
+   (`allocation_paths.py`), three allocations replayed through seven past shocks
+   (`stress_tests.py`), the base effect on Brent (`base_effect.py`), what markets priced for rates
+   and inflation (`market_pricing.py`), today's ceiling of the rule at several targets
+   (`rule_ceiling_today.py`), the carbon intensity of sovereign issuers (`sovereign_carbon.py`),
+   the arithmetic of the stock example (`stock_example.py`), the weight of the largest AI names in
+   the index (`index_concentration.py`) and listed proxies of private assets
+   (`private_proxies.py`). **Descriptive, on public data, written after the results above were
+   known. None of it is pre-registered.**
+6. [`logbook/`](logbook/) — the Logbook: every decision written before the order and scored after
+   it. Four entries so far, all proposals. Their fingerprints are time-stamped too.
+
+## Who we are
+
+Six students of the Master in Money, Banking, Finance and Insurance at the Université de Rennes.
+
+| Seat | Member |
+|---|---|
+| Portfolio strategy, chair | Tom Artur |
+| Risk budget, research protocol | Guillaume Beaudouin |
+| Macro, sovereign bonds | Ewan Morellec |
+| Equity research | Alexandre Le Bigaut |
+| ESG, stewardship | Juliette Le Gall |
+| Data, AI register, compliance gate | Conrad Agossou |
 
 `probe_coverage.py` is the only script that ran before the freeze. It reads first and last
 dates and row counts, and computes no return.

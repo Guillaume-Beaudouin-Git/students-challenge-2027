@@ -1,37 +1,59 @@
-covariances as of 2026-11-20 | annualised volatility of each proxy, %: {'E': 22.7, 'BIL': 0.3, 'SHY': 2.1, 'IEI': 4.6, 'IEF': 7.0, 'TIP': 4.8, 'DBC': 20.1}
+covariances as of 2026-11-20 | volatility of each proxy, %: {'E': 22.7, 'BIL': 0.3, 'SHY': 2.1, 'IEI': 4.6, 'IEF': 7.0, 'TIP': 4.8, 'DBC': 20.1, 'IGF': 13.4} | correlation equities / Treasuries 3-7y: -0.46
+covariances as of 2026-03-31 | volatility of each proxy, %: {'E': 20.4, 'BIL': 0.3, 'SHY': 1.9, 'IEI': 4.3, 'IEF': 6.5, 'TIP': 4.7, 'DBC': 27.1, 'IGF': 13.3} | correlation equities / Treasuries 3-7y: 0.52
 
 opening: 30, 25, 15, 0, 5, 10, 5, 10  (sleeves in the order of the table)
-  expected_vol_%: 6.198
-  vol_points_by_block: {'equities': 6.61, 'bonds': -0.46, 'commodities': 0.05}
-  replay_return_%: {'oil shock, 27 Feb to 31 Mar 2026': -1.53, 'AI correction, 6 Oct to 20 Nov 2026': -2.79}
+  expected_vol_%: 5.618
+  expected_vol_31_march_covariances_%: 5.936
+  vol_points_by_block: {'equities': 5.96, 'bonds': -0.39, 'commodities': 0.05, 'of which networks, inside equities': 0.53}
+  replay_return_%: {'oil shock, 27 Feb to 31 Mar 2026': -1.4, 'AI correction, 6 Oct to 20 Nov 2026': -2.18}
   bond_sleeve_%: 55
   average_maturity_years: 2.55
   non_dollar_%: 10.0
   expected_return_%: 5.36
+  gain_if_yields_fall_half_a_point_%: 0.63
 
-central scenario: 35, 7, 15, 20, 5, 10, 5, 3  (sleeves in the order of the table)
-  expected_vol_%: 7.154
-  vol_points_by_block: {'equities': 7.47, 'bonds': -0.3, 'commodities': -0.01}
-  replay_return_%: {'oil shock, 27 Feb to 31 Mar 2026': -2.3, 'AI correction, 6 Oct to 20 Nov 2026': -2.83}
+central: 35, 7, 15, 20, 5, 10, 5, 3  (sleeves in the order of the table)
+  expected_vol_%: 6.607
+  expected_vol_31_march_covariances_%: 7.758
+  vol_points_by_block: {'equities': 6.79, 'bonds': -0.17, 'commodities': -0.02, 'of which networks, inside equities': 0.52}
+  replay_return_%: {'oil shock, 27 Feb to 31 Mar 2026': -2.17, 'AI correction, 6 Oct to 20 Nov 2026': -2.23}
   bond_sleeve_%: 57
   average_maturity_years: 4.93
   non_dollar_%: 11.7
   expected_return_%: 5.7
+  gain_if_yields_fall_half_a_point_%: 1.26
+
+relief: 38, 14, 15, 10, 3, 10, 0, 10  (sleeves in the order of the table)
+  expected_vol_%: 7.37
+  expected_vol_31_march_covariances_%: 8.474
+  vol_points_by_block: {'equities': 7.73, 'bonds': -0.36, 'commodities': -0.0, 'of which networks, inside equities': 0.53}
+  replay_return_%: {'oil shock, 27 Feb to 31 Mar 2026': -2.8, 'AI correction, 6 Oct to 20 Nov 2026': -2.27}
+  bond_sleeve_%: 52
+  average_maturity_years: 3.84
+  non_dollar_%: 12.7
+  expected_return_%: 5.73
+  gain_if_yields_fall_half_a_point_%: 0.9
 
 third oil spike: 25, 40, 5, 0, 10, 5, 10, 5  (sleeves in the order of the table)
-  expected_vol_%: 5.38
-  vol_points_by_block: {'equities': 5.23, 'bonds': -0.41, 'commodities': 0.57}
-  replay_return_%: {'oil shock, 27 Feb to 31 Mar 2026': -0.37, 'AI correction, 6 Oct to 20 Nov 2026': -2.93}
+  expected_vol_%: 4.821
+  expected_vol_31_march_covariances_%: 4.575
+  vol_points_by_block: {'equities': 4.55, 'bonds': -0.35, 'commodities': 0.62, 'of which networks, inside equities': 0.49}
+  replay_return_%: {'oil shock, 27 Feb to 31 Mar 2026': -0.23, 'AI correction, 6 Oct to 20 Nov 2026': -2.33}
   bond_sleeve_%: 60
   average_maturity_years: 1.87
   non_dollar_%: 8.3
   expected_return_%: 5.14
+  gain_if_yields_fall_half_a_point_%: 0.51
 
-AI de-rating goes on: 20, 20, 15, 25, 5, 10, 0, 5  (sleeves in the order of the table)
-  expected_vol_%: 4.358
-  vol_points_by_block: {'equities': 3.29, 'bonds': 1.06, 'commodities': -0.0}
-  replay_return_%: {'oil shock, 27 Feb to 31 Mar 2026': -2.24, 'AI correction, 6 Oct to 20 Nov 2026': -0.53}
-  bond_sleeve_%: 75
-  average_maturity_years: 4.33
-  non_dollar_%: 6.7
-  expected_return_%: 5.17
+AI de-rating goes on: 23, 17, 15, 25, 5, 10, 0, 5  (sleeves in the order of the table)
+  expected_vol_%: 4.482
+  expected_vol_31_march_covariances_%: 6.421
+  vol_points_by_block: {'equities': 3.41, 'bonds': 1.07, 'commodities': -0.0, 'of which networks, inside equities': 0.48}
+  replay_return_%: {'oil shock, 27 Feb to 31 Mar 2026': -2.28, 'AI correction, 6 Oct to 20 Nov 2026': -0.24}
+  bond_sleeve_%: 72
+  average_maturity_years: 4.49
+  non_dollar_%: 7.7
+  expected_return_%: 5.29
+  gain_if_yields_fall_half_a_point_%: 1.46
+
+opening allocation: lines per sleeve {'Equities, developed markets': 20, 'Treasury bills and notes under 2 years': 6, 'Treasuries of 2 to 5 years': 4, 'Inflation-linked Treasuries, 5 years': 2, 'Dollar green bonds, supranational': 3, 'Commodities (energy and metals)': 2} | total 37 | largest line 4.17% of the portfolio

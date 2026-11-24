@@ -1,0 +1,15 @@
+                              Name  Holding Percent
+Symbol                                             
+AAPL                     Apple Inc         0.056301
+NVDA                   NVIDIA Corp         0.052333
+MSFT                Microsoft Corp         0.040961
+AMZN                Amazon.com Inc         0.025866
+GOOGL         Alphabet Inc Class A         0.018284
+AVGO                  Broadcom Inc         0.016395
+META    Meta Platforms Inc Class A         0.015020
+GOOG          Alphabet Inc Class C         0.014446
+TSLA                     Tesla Inc         0.012720
+LLY               Eli Lilly and Co         0.012623
+ten largest holdings: 26.5% of the fund
+the six AI names: 18.3% of the fund
+sector weights, %: {'realestate': 1.6, 'consumer_cyclical': 8.6, 'basic_materials': 3.0, 'consumer_defensive': 5.3, 'technology': 30.6, 'communication_services': 7.3, 'financial_services': 15.9, 'utilities': 2.5, 'industrials': 10.4, 'energy': 4.6, 'healthcare': 10.2}

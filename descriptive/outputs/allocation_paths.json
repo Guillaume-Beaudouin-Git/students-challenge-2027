@@ -7,25 +7,28 @@
    "Treasuries of 5 to 10 years": 0,
    "Inflation-linked Treasuries, 5 years": 5,
    "Dollar green bonds, supranational": 10,
-   "Commodities without agriculture": 5,
+   "Commodities (energy and metals)": 5,
    "Cash": 10
   },
-  "expected_vol_%": 6.198,
+  "expected_vol_%": 5.618,
+  "expected_vol_31_march_covariances_%": 5.936,
   "vol_points_by_block": {
-   "equities": 6.61,
-   "bonds": -0.46,
-   "commodities": 0.05
+   "equities": 5.96,
+   "bonds": -0.39,
+   "commodities": 0.05,
+   "of which networks, inside equities": 0.53
   },
   "replay_return_%": {
-   "oil shock, 27 Feb to 31 Mar 2026": -1.53,
-   "AI correction, 6 Oct to 20 Nov 2026": -2.79
+   "oil shock, 27 Feb to 31 Mar 2026": -1.4,
+   "AI correction, 6 Oct to 20 Nov 2026": -2.18
   },
   "bond_sleeve_%": 55,
   "average_maturity_years": 2.55,
   "non_dollar_%": 10.0,
-  "expected_return_%": 5.36
+  "expected_return_%": 5.36,
+  "gain_if_yields_fall_half_a_point_%": 0.63
  },
- "central scenario": {
+ "central": {
   "weights_%": {
    "Equities, developed markets": 35,
    "Treasury bills and notes under 2 years": 7,
@@ -33,23 +36,55 @@
    "Treasuries of 5 to 10 years": 20,
    "Inflation-linked Treasuries, 5 years": 5,
    "Dollar green bonds, supranational": 10,
-   "Commodities without agriculture": 5,
+   "Commodities (energy and metals)": 5,
    "Cash": 3
   },
-  "expected_vol_%": 7.154,
+  "expected_vol_%": 6.607,
+  "expected_vol_31_march_covariances_%": 7.758,
   "vol_points_by_block": {
-   "equities": 7.47,
-   "bonds": -0.3,
-   "commodities": -0.01
+   "equities": 6.79,
+   "bonds": -0.17,
+   "commodities": -0.02,
+   "of which networks, inside equities": 0.52
   },
   "replay_return_%": {
-   "oil shock, 27 Feb to 31 Mar 2026": -2.3,
-   "AI correction, 6 Oct to 20 Nov 2026": -2.83
+   "oil shock, 27 Feb to 31 Mar 2026": -2.17,
+   "AI correction, 6 Oct to 20 Nov 2026": -2.23
   },
   "bond_sleeve_%": 57,
   "average_maturity_years": 4.93,
   "non_dollar_%": 11.7,
-  "expected_return_%": 5.7
+  "expected_return_%": 5.7,
+  "gain_if_yields_fall_half_a_point_%": 1.26
+ },
+ "relief": {
+  "weights_%": {
+   "Equities, developed markets": 38,
+   "Treasury bills and notes under 2 years": 14,
+   "Treasuries of 2 to 5 years": 15,
+   "Treasuries of 5 to 10 years": 10,
+   "Inflation-linked Treasuries, 5 years": 3,
+   "Dollar green bonds, supranational": 10,
+   "Commodities (energy and metals)": 0,
+   "Cash": 10
+  },
+  "expected_vol_%": 7.37,
+  "expected_vol_31_march_covariances_%": 8.474,
+  "vol_points_by_block": {
+   "equities": 7.73,
+   "bonds": -0.36,
+   "commodities": -0.0,
+   "of which networks, inside equities": 0.53
+  },
+  "replay_return_%": {
+   "oil shock, 27 Feb to 31 Mar 2026": -2.8,
+   "AI correction, 6 Oct to 20 Nov 2026": -2.27
+  },
+  "bond_sleeve_%": 52,
+  "average_maturity_years": 3.84,
+  "non_dollar_%": 12.7,
+  "expected_return_%": 5.73,
+  "gain_if_yields_fall_half_a_point_%": 0.9
  },
  "third oil spike": {
   "weights_%": {
@@ -59,48 +94,66 @@
    "Treasuries of 5 to 10 years": 0,
    "Inflation-linked Treasuries, 5 years": 10,
    "Dollar green bonds, supranational": 5,
-   "Commodities without agriculture": 10,
+   "Commodities (energy and metals)": 10,
    "Cash": 5
   },
-  "expected_vol_%": 5.38,
+  "expected_vol_%": 4.821,
+  "expected_vol_31_march_covariances_%": 4.575,
   "vol_points_by_block": {
-   "equities": 5.23,
-   "bonds": -0.41,
-   "commodities": 0.57
+   "equities": 4.55,
+   "bonds": -0.35,
+   "commodities": 0.62,
+   "of which networks, inside equities": 0.49
   },
   "replay_return_%": {
-   "oil shock, 27 Feb to 31 Mar 2026": -0.37,
-   "AI correction, 6 Oct to 20 Nov 2026": -2.93
+   "oil shock, 27 Feb to 31 Mar 2026": -0.23,
+   "AI correction, 6 Oct to 20 Nov 2026": -2.33
   },
   "bond_sleeve_%": 60,
   "average_maturity_years": 1.87,
   "non_dollar_%": 8.3,
-  "expected_return_%": 5.14
+  "expected_return_%": 5.14,
+  "gain_if_yields_fall_half_a_point_%": 0.51
  },
  "AI de-rating goes on": {
   "weights_%": {
-   "Equities, developed markets": 20,
-   "Treasury bills and notes under 2 years": 20,
+   "Equities, developed markets": 23,
+   "Treasury bills and notes under 2 years": 17,
    "Treasuries of 2 to 5 years": 15,
    "Treasuries of 5 to 10 years": 25,
    "Inflation-linked Treasuries, 5 years": 5,
    "Dollar green bonds, supranational": 10,
-   "Commodities without agriculture": 0,
+   "Commodities (energy and metals)": 0,
    "Cash": 5
   },
-  "expected_vol_%": 4.358,
+  "expected_vol_%": 4.482,
+  "expected_vol_31_march_covariances_%": 6.421,
   "vol_points_by_block": {
-   "equities": 3.29,
-   "bonds": 1.06,
-   "commodities": -0.0
+   "equities": 3.41,
+   "bonds": 1.07,
+   "commodities": -0.0,
+   "of which networks, inside equities": 0.48
   },
   "replay_return_%": {
-   "oil shock, 27 Feb to 31 Mar 2026": -2.24,
-   "AI correction, 6 Oct to 20 Nov 2026": -0.53
+   "oil shock, 27 Feb to 31 Mar 2026": -2.28,
+   "AI correction, 6 Oct to 20 Nov 2026": -0.24
   },
-  "bond_sleeve_%": 75,
-  "average_maturity_years": 4.33,
-  "non_dollar_%": 6.7,
-  "expected_return_%": 5.17
+  "bond_sleeve_%": 72,
+  "average_maturity_years": 4.49,
+  "non_dollar_%": 7.7,
+  "expected_return_%": 5.29,
+  "gain_if_yields_fall_half_a_point_%": 1.46
+ },
+ "opening_lines": {
+  "per_sleeve": {
+   "Equities, developed markets": 20,
+   "Treasury bills and notes under 2 years": 6,
+   "Treasuries of 2 to 5 years": 4,
+   "Inflation-linked Treasuries, 5 years": 2,
+   "Dollar green bonds, supranational": 3,
+   "Commodities (energy and metals)": 2
+  },
+  "total": 37,
+  "largest_line_%": 4.17
  }
 }
