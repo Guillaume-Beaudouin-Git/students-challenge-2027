@@ -30,11 +30,12 @@ Arithmetic: [`descriptive/stock_example.py`](../descriptive/stock_example.py).
 ## 1 · What the business earns
 
 - About 13% on invested capital (2025 operating income of €7.01bn after tax at 23.5%, on €42.1bn).
-- Operating margin of 17.9%.
+- Operating margin of 18.0% over the twelve months to June 2026.
 - Third quarter of 2026: organic growth of 16.9%, 18.8% in energy management; growth objective for
   2026 raised to 12–14%.
-- Net debt was 1.9 times EBITDA before the deal. Analysts expect about 3 at closing, which the
-  company expects by the third quarter of 2027.
+- Net debt was under 2 times EBITDA before the deal: 1.7 on its balance sheet of June 2026, 1.9 on
+  the data vendor's summary. Analysts expect about 3 at closing, which the company expects by the
+  third quarter of 2027.
 
 ## 2 · What the price assumes
 
@@ -76,8 +77,10 @@ ESG risk rating. It is also the only one carrying a deal.
 capital near 9%. And the share is still a bet on data-centre spending, which our "AI sell-off"
 scenario fears.*
 
-Alexandre: the fall already prices in nearly three times the premium. Hence 1.5%, and the first
-line cut if that scenario is declared. We add on results, never on price.
+Alexandre: the fall already prices in nearly three times the premium. And once the market's move
+is removed, the share has not followed the six since 2023: a weekly loading of 0.02, with a
+standard error of 0.07 ([`descriptive/the_bet.py`](../descriptive/the_bet.py)). Hence 1.5%, and the
+first line cut if that scenario is declared. We add on results, never on price.
 
 ## History of this entry
 

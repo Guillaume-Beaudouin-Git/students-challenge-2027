@@ -11,3 +11,5 @@ Schneider Electric, twelve months to 2026-06-30: operating cash flow 7.24bn, cap
 Eaton, twelve months to 2026-09-30: operating cash flow 4.91bn, capital expenditure 1.11bn (USD) | free cash flow 3.79bn USD | market value at 20 Nov 121.0bn | yield 3.14%
 ABB, twelve months to 2026-09-30: operating cash flow 5.99bn, capital expenditure 1.08bn (USD) | free cash flow 4.15bn CHF | market value at 20 Nov 117.9bn | yield 3.52%
 Schneider, fiscal year to 2025-12-31: operating income 7.01bn, tax rate 23.5%, invested capital 42.1bn -> return on invested capital 12.7%
+Schneider, twelve months to 2026-06-30: sales 42.04bn, operating income 7.58bn, margin 18.0% | at 2026-06-30: debt 19.39bn less cash 4.52bn = 14.87bn, 1.7 times EBITDA of 8.79bn
+   the vendor's own summary gives debt of 20.81bn and EBITDA of 8.52bn: 1.9 times. We write 'under 2 times'.

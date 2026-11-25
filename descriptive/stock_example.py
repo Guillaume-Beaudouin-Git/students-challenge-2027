@@ -91,3 +91,15 @@ _inc, _bs = _t.income_stmt, _t.balance_sheet
 _ebit, _tax, _capital = float(_inc.loc["Operating Income"].iloc[0]), float(_inc.loc["Tax Rate For Calcs"].iloc[0]), float(_bs.loc["Invested Capital"].iloc[0])
 print("Schneider, fiscal year to %s: operating income %.2fbn, tax rate %.1f%%, invested capital %.1fbn -> return on invested capital %.1f%%"
       % (_inc.columns[0].date(), _ebit / 1e9, _tax * 100, _capital / 1e9, _ebit * (1 - _tax) / _capital * 100))
+
+# Margin and debt before the deal, over the twelve months to the last balance sheet published:
+# operating income over sales, and debt (leases included) less cash and short-term investments, over
+# EBITDA. Statements as Yahoo Finance reports them.
+_ttm, _qbs = _t.ttm_income_stmt, _t.quarterly_balance_sheet
+_rev, _op, _ebitda = (float(_ttm.loc[k].iloc[0]) for k in ("Total Revenue", "Operating Income", "EBITDA"))
+_debt, _cash = float(_qbs.loc["Total Debt"].iloc[0]), float(_qbs.loc["Cash Cash Equivalents And Short Term Investments"].iloc[0])
+print("Schneider, twelve months to %s: sales %.2fbn, operating income %.2fbn, margin %.1f%% | at %s: debt %.2fbn less cash %.2fbn = %.2fbn, %.1f times EBITDA of %.2fbn"
+      % (_ttm.columns[0].date(), _rev / 1e9, _op / 1e9, _op / _rev * 100, _qbs.columns[0].date(), _debt / 1e9, _cash / 1e9, (_debt - _cash) / 1e9, (_debt - _cash) / _ebitda, _ebitda / 1e9))
+_i = _t.info
+print("   the vendor's own summary gives debt of %.2fbn and EBITDA of %.2fbn: %.1f times. We write 'under 2 times'."
+      % (_i["totalDebt"] / 1e9, _i["ebitda"] / 1e9, (_i["totalDebt"] - _i["totalCash"]) / _i["ebitda"]))

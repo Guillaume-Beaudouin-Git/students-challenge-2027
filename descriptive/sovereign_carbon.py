@@ -5,9 +5,10 @@ use (LULUCF). A holding is attributed emissions by: exposure / PPP-adjusted GDP 
 emissions. Emissions of imports (the country's scopes 2 and 3) are not computed here.
 
 Descriptive. Everything is for one year, 2023, the latest for which the three series exist, so that
-no figure mixes two years (decided by the ESG seat on 25 November 2026). Emissions excluding land
-use: total greenhouse gases, Mt CO2e (EDGAR, World Bank indicator EN.GHG.ALL.MT.CE.AR5). Land use:
-World Bank indicator EN.GHG.CO2.LU.MT.CE.AR5. GDP: PPP, current international dollars
+no figure mixes two years (our choice of 25 November 2026, after the ESG seat asked for one
+recalculation). Emissions excluding land use: total greenhouse gases, Mt CO2e (EDGAR, World Bank
+indicator EN.GHG.ALL.MT.CE.AR5). Land use: World Bank indicator EN.GHG.CO2.LU.MT.CE.AR5. GDP: PPP,
+current international dollars
 (NY.GDP.MKTP.PP.CD); current dollars (NY.GDP.MKTP.CD) for comparison. The last lines print the
 intensity excluding land use for 2024, where that series already exists.
 

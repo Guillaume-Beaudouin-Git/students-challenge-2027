@@ -94,3 +94,16 @@ SHA-256  d8d53737b11b8cf679a8806c5e00cca17c53d5218f4296a21996ccf0d8e16224
 Time     Nov 25 00:07:07 2026 GMT
 Serial   0x5F2A944461444D597A7290CF2A99765E
 ```
+
+## Sixth token: entry 002, margin, debt and one answer
+
+`LOGBOOK_2026-11-25_v6.tsr`. Entry 002: the operating margin and the debt ratio are now those of
+the company's statements (18.0%; under 2 times EBITDA, with both readings given), and the answer to
+the objection quotes how the share has moved against the six since 2023. Printed by
+`descriptive/stock_example.py` and `descriptive/the_bet.py`.
+
+```
+SHA-256  dd9a6a4ef11f6d412acde3d5f37ccffd56272545a47dda55652aefe6b7b9bb6b
+Time     Nov 25 00:14:32 2026 GMT
+Serial   0x671061984C5686435A6A64A18946691F
+```
