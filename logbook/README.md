@@ -18,7 +18,8 @@ Friday 20 November 2026.
 | [004](004_oil_hedge.md) | Oil hedge: an energy-and-metals ETC, no oil producer | Tom Artur | Juliette Le Gall | proposal |
 | [005](005_the_bet.md) | The bet: half the six AI giants, six times the networks | Alexandre Le Bigaut | Tom Artur | proposal |
 
-Each owner signs the entry in [`SIGN_OFF.md`](SIGN_OFF.md), from his or her own account.
+Each member approves his or her entries, objections and page in writing; the chair records the
+approvals in [`SIGN_OFF.md`](SIGN_OFF.md).
 
 ## How an entry is scored
 
