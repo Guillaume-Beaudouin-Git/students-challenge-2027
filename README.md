@@ -28,7 +28,8 @@ The order of the commits is the point:
    private assets (`private_proxies.py`). **Descriptive, on public data, written after the results above were
    known. None of it is pre-registered.**
 6. [`logbook/`](logbook/) — the Logbook: every decision written before the order and scored after
-   it. Five entries so far, all proposals. Their fingerprints are time-stamped too.
+   it. Five entries so far, each voted by the six of us before the file was sent. Their fingerprints
+   are time-stamped too.
 
 ## Who we are
 

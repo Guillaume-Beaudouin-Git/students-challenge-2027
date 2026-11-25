@@ -5,7 +5,7 @@
 | Date | 24 November 2026 |
 | Owner | Ewan Morellec (macro seat) |
 | Challenger | Tom Artur (strategy seat, deputy chair) |
-| Status | Proposal, not yet voted |
+| Status | Voted by the six of us, in writing: six for, none against. Recorded by the chair on 25 November 2026 |
 | Review | Federal Reserve meeting of 9 December 2026; each US inflation release |
 
 ## Decision

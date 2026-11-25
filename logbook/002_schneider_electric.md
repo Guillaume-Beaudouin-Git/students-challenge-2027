@@ -6,7 +6,7 @@
 | Company | Schneider Electric (Paris, in euros) |
 | Owner | Alexandre Le Bigaut (equity seat) |
 | Challenger | Guillaume Beaudouin (chair) |
-| Status | Proposal, not yet voted |
+| Status | Voted by the six of us, in writing: six for, none against. Recorded by the chair on 25 November 2026 |
 | Review | Full-year results in February 2027; first-quarter sales in late April 2027 |
 
 ## Decision

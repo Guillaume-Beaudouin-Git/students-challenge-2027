@@ -107,3 +107,15 @@ SHA-256  dd9a6a4ef11f6d412acde3d5f37ccffd56272545a47dda55652aefe6b7b9bb6b
 Time     Nov 25 00:14:32 2026 GMT
 Serial   0x671061984C5686435A6A64A18946691F
 ```
+
+## Seventh token: the five entries voted
+
+`LOGBOOK_2026-11-25_v7.tsr`. The status of each entry goes from "Proposal, not yet voted" to the
+result of the vote: six for, none against, given in writing by each member and recorded by the
+chair on 25 November 2026. Nothing else changes in the entries.
+
+```
+SHA-256  70713d1a185fc6febde1f0919bacd3e77142a551fe7b75b21c1a6e4325605bc6
+Time     Nov 25 01:02:54 2026 GMT
+Serial   0x2C8E837CB1C08E6A1A852ABDB9994155
+```

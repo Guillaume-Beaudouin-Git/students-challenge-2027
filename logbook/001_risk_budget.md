@@ -5,7 +5,7 @@
 | Date | 24 November 2026 |
 | Owner | Guillaume Beaudouin (chair, risk rule) |
 | Challenger | Ewan Morellec (macro seat) |
-| Status | Proposal, not yet voted |
+| Status | Voted by the six of us, in writing: six for, none against. Recorded by the chair on 25 November 2026 |
 | Review | Every Friday close |
 
 ## Decision

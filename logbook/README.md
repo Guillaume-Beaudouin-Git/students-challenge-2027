@@ -6,17 +6,18 @@ An entry gives the decision, the evidence, what the price already assumes, what 
 wrong and by when, and the objection of a challenger from another seat. An entry that cannot say
 how it could be wrong is not filed.
 
-The five entries below were written for our application to *The Students Challenge 2027*. They are
-proposals. None has been voted, and none is a recommendation. Market data are at the close of
+The five entries below were written for our application to *The Students Challenge 2027*. The six of
+us voted each of them in writing before the file was sent: six for, none against. No order exists
+before 2 February 2027, and none of this is a recommendation. Market data are at the close of
 Friday 20 November 2026.
 
 | Entry | Subject | Owner | Challenger | Status |
 |---|---|---|---|---|
-| [001](001_risk_budget.md) | Risk budget: 30% in equities at the open | Guillaume Beaudouin | Ewan Morellec | proposal |
-| [002](002_schneider_electric.md) | Stock example: Schneider Electric after the PTC deal | Alexandre Le Bigaut | Guillaume Beaudouin | proposal |
-| [003](003_sovereign_sleeve.md) | Sovereign sleeve: dollars only, 2.5 years | Ewan Morellec | Tom Artur | proposal |
-| [004](004_oil_hedge.md) | Oil hedge: an energy-and-metals ETC, no oil producer | Tom Artur | Juliette Le Gall | proposal |
-| [005](005_the_bet.md) | The bet: half the six AI giants, six times the networks | Alexandre Le Bigaut | Tom Artur | proposal |
+| [001](001_risk_budget.md) | Risk budget: 30% in equities at the open | Guillaume Beaudouin | Ewan Morellec | voted, 6 to 0 |
+| [002](002_schneider_electric.md) | Stock example: Schneider Electric after the PTC deal | Alexandre Le Bigaut | Guillaume Beaudouin | voted, 6 to 0 |
+| [003](003_sovereign_sleeve.md) | Sovereign sleeve: dollars only, 2.5 years | Ewan Morellec | Tom Artur | voted, 6 to 0 |
+| [004](004_oil_hedge.md) | Oil hedge: an energy-and-metals ETC, no oil producer | Tom Artur | Juliette Le Gall | voted, 6 to 0 |
+| [005](005_the_bet.md) | The bet: half the six AI giants, six times the networks | Alexandre Le Bigaut | Tom Artur | voted, 6 to 0 |
 
 Each member approves his or her entries, objections and page in writing; the chair records the
 approvals in [`SIGN_OFF.md`](SIGN_OFF.md).

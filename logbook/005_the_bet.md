@@ -5,7 +5,7 @@
 | Date | 24 November 2026 |
 | Owner | Alexandre Le Bigaut (equity seat) |
 | Challenger | Tom Artur (strategy seat, deputy chair) |
-| Status | Proposal, not yet voted |
+| Status | Voted by the six of us, in writing: six for, none against. Recorded by the chair on 25 November 2026 |
 | Review | Results of the four buyers in late January and early February 2027; each committee |
 
 ## Decision
