@@ -39,10 +39,13 @@ Arithmetic: [`descriptive/stock_example.py`](../descriptive/stock_example.py).
 ## 2 · What the price assumes
 
 - 27 times trailing earnings.
-- Free cash flow of €5.37bn, a yield of 4.0% on the market value. Same definition: Eaton 2.4%,
-  ABB 1.7%.
-- Discounted at 8.5% with 2.5% growth after ten years, the price needs that cash flow to grow
-  about 7% a year for ten years. It grew 12% a year from 2022 to 2025, on sales growing 5.5%.
+- Free cash flow, defined as operating cash flow less capital expenditure over the twelve months
+  to June 2026: €5.74bn, a yield of 4.3% on the market value at the close of 20 November. Same
+  definition, same day: ABB 3.5%, Eaton 3.1%.
+- That cash flow is what is left for shareholders, so we discount it at a cost of equity, 8.5%,
+  with 2.5% growth after ten years. The price then needs it to grow about 6.5% a year for ten
+  years (4.1% at a cost of equity of 7.5%, 8.7% at 9.5%). It grew 12% a year from 2022 to 2025, on
+  sales growing 5.5%.
 - Not in this number: PTC, paid about 20 times its expected EBITDA according to press estimates.
 
 ## Why this one, and not Eaton or ABB
@@ -80,6 +83,13 @@ line cut if that scenario is declared. We add on results, never on price.
 
 The first draft, written earlier on 24 November 2026, did not mention the PTC deal. An AI review
 pointed it out. This version replaces it.
+
+25 November 2026: an outside review asked how free cash flow was defined. The version of the day
+before used a figure that the data vendor calculates itself (€5.37bn, a yield of 4.0%, and growth
+of about 7% a year), and for ABB it set a cash flow in dollars against a market value in francs
+(1.7%; Eaton 2.4%). The three are now measured from their own cash-flow statements and valued on
+the same day. Schneider remains the cheapest of the three on cash flow, by less than we first
+wrote.
 
 ## Sources
 

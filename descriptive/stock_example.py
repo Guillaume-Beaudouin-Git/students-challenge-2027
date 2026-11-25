@@ -39,30 +39,50 @@ print("shares before the placement: %.1fm | value lost on 5 Oct: EUR %.1fbn = %.
 print("20 Nov against the placement price of %.0f: %.1f%%" % (PLACEMENT_PRICE, (last / PLACEMENT_PRICE - 1) * 100))
 print("PTC on 20 Nov: %.2f, %.1f%% under the offer" % (float(ptc.loc[:"2026-11-20"].iloc[-1]), (float(ptc.loc[:"2026-11-20"].iloc[-1]) / OFFER - 1) * 100))
 
-# What the price assumes: the growth of free cash flow that makes the discounted flows equal the
-# market value (ten years of growth, then 2.5% a year, discounted at 8.5%), and the same free-cash-flow
-# yield for the two other large makers of electrical equipment. Free cash flow and market value as
-# Yahoo Finance reports them (trailing twelve months), read on the day the script is run.
+# What the price assumes, and the same measure for the two other large makers of electrical equipment.
+# Free cash flow: operating cash flow less capital expenditure over the last twelve months reported,
+# from each company's cash-flow statement (Yahoo Finance), the definition used for the six AI
+# companies in the_bet.py. It is a cash flow after interest and tax, so it is set against the market
+# value of the shares (shares outstanding x close of 20 November 2026) and discounted at a cost of
+# equity, 8.5%: ten years of growth, then 2.5% a year. ABB reports in dollars and trades in francs:
+# its cash flow is converted at the close of 20 November.
+# A first version, on 24 November, used the field "freeCashflow" of the data vendor, a figure it
+# calculates itself (5.37bn for Schneider), and set ABB's dollars against a market value in francs.
 R, G_TERMINAL, YEARS = 0.085, 0.025, 10
 
 
-def implied_growth(flow0: float, value: float) -> float:
+def implied_growth(flow0: float, value: float, r: float = R) -> float:
     lo, hi = -0.5, 1.0
     for _ in range(200):
         g = (lo + hi) / 2
-        flows = sum(flow0 * (1 + g) ** k / (1 + R) ** k for k in range(1, YEARS + 1))
-        terminal = flow0 * (1 + g) ** YEARS * (1 + G_TERMINAL) / (R - G_TERMINAL) / (1 + R) ** YEARS
+        flows = sum(flow0 * (1 + g) ** k / (1 + r) ** k for k in range(1, YEARS + 1))
+        terminal = flow0 * (1 + g) ** YEARS * (1 + G_TERMINAL) / (r - G_TERMINAL) / (1 + r) ** YEARS
         lo, hi = (g, hi) if flows + terminal < value else (lo, g)
     return g
 
 
+usdchf = float(close("CHF=X", "2026-09-25").loc[:"2026-11-20"].iloc[-1])
 for ticker, name in (("SU.PA", "Schneider Electric"), ("ETN", "Eaton"), ("ABBN.SW", "ABB")):
-    info = yf.Ticker(ticker).info
-    fcf, mcap = info.get("freeCashflow"), info.get("marketCap")
-    line = "%s: free cash flow %.2fbn, market value %.1fbn, yield %.2f%%" % (name, fcf / 1e9, mcap / 1e9, fcf / mcap * 100)
-    if ticker == "SU.PA":
-        line += " | growth the price needs for ten years: %.1f%% a year" % (implied_growth(fcf, mcap) * 100)
+    tk = yf.Ticker(ticker)
+    info, ttm = tk.info, tk.ttm_cashflow
+    cfo, capex = float(ttm.loc["Operating Cash Flow"].iloc[0]), -float(ttm.loc["Capital Expenditure"].iloc[0])
+    to_quote = usdchf if (info["financialCurrency"], info["currency"]) == ("USD", "CHF") else 1.0
+    assert to_quote != 1.0 or info["financialCurrency"] == info["currency"], (ticker, info["financialCurrency"], info["currency"])
+    fcf = (cfo - capex) * to_quote
+    price = float(close(ticker, "2026-09-25").loc[:"2026-11-20"].iloc[-1])
+    value = price * info["sharesOutstanding"]
+    line = ("%s, twelve months to %s: operating cash flow %.2fbn, capital expenditure %.2fbn (%s) | free cash flow %.2fbn %s | market value at 20 Nov %.1fbn | yield %.2f%%"
+            % (name, ttm.columns[0].date(), cfo / 1e9, capex / 1e9, info["financialCurrency"], fcf / 1e9, info["currency"], value / 1e9, fcf / value * 100))
     print(line)
+    if ticker == "SU.PA":
+        print("   growth the price needs for ten years, at a cost of equity of 8.5%%: %.1f%% a year | at 7.5%%: %.1f%% | at 9.5%%: %.1f%%"
+              % (implied_growth(fcf, value) * 100, implied_growth(fcf, value, 0.075) * 100, implied_growth(fcf, value, 0.095) * 100))
+        annual = tk.cashflow.loc["Free Cash Flow"].dropna()
+        first, last_ = annual.index.min(), annual.index.max()
+        years = round((last_ - first).days / 365.25)
+        print("   free cash flow by fiscal year: %s | growth %d to %d: %.1f%% a year"
+              % ({c.year: round(float(v) / 1e9, 2) for c, v in annual.sort_index().items()}, first.year, last_.year, ((float(annual[last_]) / float(annual[first])) ** (1 / years) - 1) * 100))
+        print("   the vendor's own figure (field freeCashflow), used in the first version: %.2fbn, a yield of %.2f%%" % (info["freeCashflow"] / 1e9, info["freeCashflow"] / value * 100))
 
 # What the business earns on its capital: operating income of the last fiscal year after tax, over
 # invested capital, both as Yahoo Finance reports them.

@@ -1,0 +1,46 @@
+period returns identical to outputs/the_bet.json: yes
+
+1. THE TWO TILTS AND THE COMPLETE SLEEVE, in % of the portfolio (30% in equities)
+   active weights, points of the sleeve: six -9.17 | networks against all utilities +12.50 | the rest -3.33 | sum +0.00
+   period                                         utilities  the rest two tilts    complete difference      sleeve
+   2023                                               +0.6%     +2.0%     -3.38       -3.12      +0.26      +13.5%
+   2024                                              +13.1%     +5.7%     -2.22       -2.18      +0.04      +11.4%
+   2025                                              +25.9%    +18.0%     -0.06       +0.01      +0.06      +21.4%
+   2026 to 20 Nov                                     +4.8%     +4.3%     +0.61       +0.61      +0.00       +3.6%
+   oil shock, 27 Feb - 31 Mar 2026                    -3.3%     -6.0%     -0.03       -0.04      -0.01       -5.8%
+   between the two shocks, 31 Mar - 6 Oct 2026        -7.1%    +14.0%     -1.38       -1.34      +0.03      +12.8%
+   AI correction, 6 Oct - 20 Nov 2026                 +2.7%     -7.7%     +1.11       +1.12      +0.01       -6.9%
+   'two tilts' is the figure of the application file. 'complete' is the return of the whole sleeve less the index.
+   The rest of the index is a residual at today's weights: before 2026 the six weighed less than today, so the
+   residual is too low in the years when they rose most. Our own stock picks inside the rest are not in either figure.
+
+2. WHAT THE EIGHT NETWORK COMPANIES WEIGH, upper bound from full market values at the close of 20 November
+   EXC      $  47.3bn  0.056%
+   ED       $  44.3bn  0.053%
+   ES       $  26.8bn  0.032%
+   NG.L     $  80.8bn  0.096%
+   TRN.MI   $  20.8bn  0.025%
+   RED.MC   $   9.6bn  0.011%
+   EOAN.DE  $  53.4bn  0.063%
+   H.TO     $  24.0bn  0.028%
+   the eight together: $307bn, at most 0.36% of the index | 15% of our sleeve is 41 times that, and 6 times the 2.5% of all utilities
+
+3. THE SIX EQUALLY WEIGHTED, same periods (two tilts, % of the portfolio)
+   2023                                           six as in the index  +121.9% ->  -3.38 | six equally weighted  +118.5% ->  -3.29
+   2024                                           six as in the index   +75.5% ->  -2.22 | six equally weighted   +72.4% ->  -2.13
+   2025                                           six as in the index   +35.1% ->  -0.06 | six equally weighted   +34.0% ->  -0.03
+   2026 to 20 Nov                                 six as in the index   -10.9% ->  +0.61 | six equally weighted    -8.2% ->  +0.54
+   oil shock, 27 Feb - 31 Mar 2026                six as in the index    -4.4% ->  -0.03 | six equally weighted    -5.0% ->  -0.01
+   between the two shocks, 31 Mar - 6 Oct 2026    six as in the index   +34.6% ->  -1.38 | six equally weighted   +32.5% ->  -1.32
+   AI correction, 6 Oct - 20 Nov 2026             six as in the index   -25.2% ->  +1.11 | six equally weighted   -21.8% ->  +1.01
+
+4. NETWORKS AND THE TEN-YEAR TREASURY YIELD, weekly, 2022-12-30 to 2026-11-20
+   with the index (the figure of the file)      204 weeks | -0.74% per +0.10 point | s.e. 0.10 plain, 0.10 Newey-West (4 lags) | t -7.6 | 95%: -0.93 to -0.55 | R2 0.25
+   without the index                            204 weeks | -0.75% per +0.10 point | s.e. 0.10 plain, 0.11 Newey-West (4 lags) | t -6.6 | 95%: -0.98 to -0.53 | R2 0.22
+   2023 and 2024                                105 weeks | -0.67% per +0.10 point | s.e. 0.12 plain, 0.10 Newey-West (4 lags) | t -6.8 | 95%: -0.87 to -0.48 | R2 0.35
+   2025 and 2026                                 99 weeks | -0.76% per +0.10 point | s.e. 0.18 plain, 0.22 Newey-West (3 lags) | t -3.4 | 95%: -1.20 to -0.32 | R2 0.16
+   without the five weeks of largest yield moves 199 weeks | -0.83% per +0.10 point | s.e. 0.11 plain, 0.13 Newey-West (4 lags) | t -6.5 | 95%: -1.08 to -0.58 | R2 0.26
+   beta of the two tilts to the index: -0.145 | s.e. 0.015 plain, 0.016 Newey-West | R2 0.33
+
+5. CAPITAL EXPENDITURE OVER THE LAST TWELVE MONTHS REPORTED, $bn (cash-flow statements, Yahoo Finance)
+   the four buyers: MSFT 136, GOOGL 160, AMZN 215, META 104 | left at index weight: AAPL 9, TSLA 15

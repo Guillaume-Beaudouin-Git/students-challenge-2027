@@ -23,9 +23,9 @@ The order of the commits is the point:
    (`rule_ceiling_today.py`), the carbon intensity of sovereign issuers (`sovereign_carbon.py`),
    the arithmetic of the stock example (`stock_example.py`), the weight of the largest AI names in
    the index (`index_concentration.py`), the bet of Logbook entry 005 with its unfavourable periods
-   (`the_bet.py`), the returns of each asset class in the two shocks of 2026 (`market_2026.py`), the
-   last checks on oil, Schneider and AI spending (`final_checks.py`) and listed proxies of private
-   assets (`private_proxies.py`). **Descriptive, on public data, written after the results above were
+   (`the_bet.py`), four checks on that bet asked by an outside review (`the_bet_robustness.py`), the
+   returns of each asset class in the two shocks of 2026 (`market_2026.py`) and listed proxies of
+   private assets (`private_proxies.py`). **Descriptive, on public data, written after the results above were
    known. None of it is pre-registered.**
 6. [`logbook/`](logbook/) — the Logbook: every decision written before the order and scored after
    it. Five entries so far, all proposals. Their fingerprints are time-stamped too.
@@ -47,7 +47,10 @@ Six students of the Master in Money, Banking, Finance and Insurance at the Unive
 dates and row counts, and computes no return.
 
 The data are not in the repository (Yahoo Finance and FRED, both public); the files a run
-used are identified by their SHA-256 in `data/MANIFEST.json`.
+used are identified by their SHA-256 in `data/MANIFEST.json`. That manifest covers the
+pre-registered test only. The descriptive scripts fetch their data when they are run (Yahoo
+Finance, FRED, the World Bank): the outputs saved in `descriptive/outputs/` are snapshots, dated
+by their commit, and a later run can differ if a provider revises its data.
 
 Prepared with an AI coding assistant (Claude Code) under human direction. How we govern the
 use of AI is described in the application file.

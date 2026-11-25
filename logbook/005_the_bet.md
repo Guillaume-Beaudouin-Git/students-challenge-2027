@@ -114,7 +114,9 @@ needs on free cash flow) and on two favourable periods. A review asked for the u
 for the days after the cut-off, for the range of the arithmetic and for the same test on the
 networks. This version is the answer. A second review, the same night, found the first statement of
 the logic too binary ("either they keep borrowing, or their suppliers lose orders"): it is reworded
-above.
+above. On 25 November another review asked what the two tilts leave out, what the eight weigh in
+the index and whether the six were a ranking: the definitions below answer, and no figure above
+has changed.
 
 ## Definitions
 
@@ -124,6 +126,25 @@ above.
   in billions of dollars: Microsoft −8, Alphabet +97, Amazon +124, Meta +51. Total: 264.
 - Networks: regulated operators of electricity networks. Schneider Electric, the stock example of
   entry 002, is an equipment maker and sits outside this basket.
+- The six: the four largest buyers of AI computing capacity and their two largest suppliers in the
+  index. The basket is ours and is not a ranking by size. Apple, the largest line of the index, and
+  Tesla stay at index weight: they spent $9bn and $15bn on capital expenditure over twelve months,
+  against $104bn to $215bn for each of the four.
+- Six times: 15% of the sleeve against the 2.5% of all utilities in the index. The eight network
+  companies alone weigh at most 0.36% of it (full market values; the index counts the free float).
+- Eight and three: the eight are our research universe and the basket behind the history above.
+  The three lines will be chosen among them, one entry each, on ESG rating, valuation and
+  liquidity. Their return will differ from the basket's.
+- What the figures measure: two tilts, each against the index. They are not the return of the
+  whole equity sleeve. With the sleeve completed (no other utility, the rest held like the rest of
+  the index), the figures move by 0.26 point of the portfolio at most: −3.1 in place of −3.4 for
+  2023, and less than 0.1 elsewhere. What our own stock picks add or cost is counted apart.
+- The yield sensitivity of the networks, −0.7% for each 0.10 point, has a 95% interval of −0.9 to
+  −0.5 with standard errors that allow for serial correlation. It is a historical association
+  over four years and no forecast.
+
+Checks behind the last four points:
+[`descriptive/the_bet_robustness.py`](../descriptive/the_bet_robustness.py).
 
 ## Sources
 

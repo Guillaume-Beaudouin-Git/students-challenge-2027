@@ -81,3 +81,16 @@ SHA-256  3327e7bef7dfba7c009df6e11ab19b6ef26feec649ff637e19fbc8b2d5b09d26
 Time     Nov 24 23:26:43 2026 GMT
 Serial   0xB3F078F0E53F58EAB8AE47F1DEBE9CA0
 ```
+
+## Fifth token: entries 002 and 005 after a fourth outside review
+
+`LOGBOOK_2026-11-25_v5.tsr`. Entry 002: free cash flow is now taken from the companies' cash-flow
+statements for the three candidates, valued on the same day, and the entry says what the earlier
+version got wrong. Entry 005: five definitions added (the six, "six times", eight and three, what
+the figures measure, the yield sensitivity); no figure of the entry has changed.
+
+```
+SHA-256  d8d53737b11b8cf679a8806c5e00cca17c53d5218f4296a21996ccf0d8e16224
+Time     Nov 25 00:07:07 2026 GMT
+Serial   0x5F2A944461444D597A7290CF2A99765E
+```

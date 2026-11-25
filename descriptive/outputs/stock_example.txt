@@ -4,7 +4,10 @@ premium paid: $6.72bn = EUR 5.97bn at 1.1255
 shares before the placement: 562.6m | value lost on 5 Oct: EUR 17.0bn = 2.8 times the premium
 20 Nov against the placement price of 240: -5.6%
 PTC on 20 Nov: 195.10, -4.8% under the offer
-Schneider Electric: free cash flow 5.37bn, market value 132.9bn, yield 4.05% | growth the price needs for ten years: 7.3% a year
-Eaton: free cash flow 3.03bn, market value 124.0bn, yield 2.45%
-ABB: free cash flow 2.04bn, market value 118.1bn, yield 1.73%
+Schneider Electric, twelve months to 2026-06-30: operating cash flow 7.24bn, capital expenditure 1.50bn (EUR) | free cash flow 5.74bn EUR | market value at 20 Nov 133.1bn | yield 4.31%
+   growth the price needs for ten years, at a cost of equity of 8.5%: 6.5% a year | at 7.5%: 4.1% | at 9.5%: 8.7%
+   free cash flow by fiscal year: {2022: 3.26, 2023: 4.54, 2024: 4.16, 2025: 4.59} | growth 2022 to 2025: 12.1% a year
+   the vendor's own figure (field freeCashflow), used in the first version: 5.37bn, a yield of 4.04%
+Eaton, twelve months to 2026-09-30: operating cash flow 4.91bn, capital expenditure 1.11bn (USD) | free cash flow 3.79bn USD | market value at 20 Nov 121.0bn | yield 3.14%
+ABB, twelve months to 2026-09-30: operating cash flow 5.99bn, capital expenditure 1.08bn (USD) | free cash flow 4.15bn CHF | market value at 20 Nov 117.9bn | yield 3.52%
 Schneider, fiscal year to 2025-12-31: operating income 7.01bn, tax rate 23.5%, invested capital 42.1bn -> return on invested capital 12.7%
