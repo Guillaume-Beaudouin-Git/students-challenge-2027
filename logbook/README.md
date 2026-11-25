@@ -7,7 +7,7 @@ wrong and by when, and the objection of a challenger from another seat. An entry
 how it could be wrong is not filed.
 
 The five entries below were written for our application to *The Students Challenge 2027*. The six of
-us voted each of them in writing before filing: six for, none against. No order exists before
+us voted on each of them in writing before filing: six for, none against. No order exists before
 2 February 2027, and none of this is a recommendation. Market data are at the close of Friday
 20 November 2026.
 

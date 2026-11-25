@@ -5,7 +5,7 @@
 | Date | 24 November 2026 |
 | Owner | Tom Artur (strategy seat, deputy chair) |
 | Challenger | Juliette Le Gall (ESG seat) |
-| Status | Voted by the six of us, in writing: six for, none against. Recorded by the chair on 25 November 2026 |
+| Status | Voted on by the six of us, in writing: six for, none against. Recorded by the chair on 25 November 2026 |
 | Review | Monthly |
 
 ## Decision

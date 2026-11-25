@@ -5,7 +5,7 @@
 | Date | 24 November 2026 |
 | Owner | Alexandre Le Bigaut (equity seat) |
 | Challenger | Tom Artur (strategy seat, deputy chair) |
-| Status | Voted by the six of us, in writing: six for, none against. Recorded by the chair on 25 November 2026 |
+| Status | Voted on by the six of us, in writing: six for, none against. Recorded by the chair on 25 November 2026 |
 | Review | Results of the four buyers in late January and early February 2027; each committee |
 
 ## Decision
@@ -37,7 +37,7 @@ Four of the six buy the AI build-out (Microsoft, Alphabet, Amazon, Meta). Two se
 ## The logic
 
 Cash reserves and borrowing can fill that gap for a time, and the spending may pay. If the gap is
-closed by spending less, the two suppliers lose orders. The market has charged the sellers far more
+closed by spending less, the two suppliers lose orders. The market has hit the sellers far harder
 than the buyers: 42% against 14% in the AI correction of the autumn. The index holds 18% in the six.
 We hold half. The net borrowing is what their cash-flow statements report for the period; we do not
 claim that it was raised for AI.

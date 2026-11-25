@@ -119,3 +119,15 @@ SHA-256  70713d1a185fc6febde1f0919bacd3e77142a551fe7b75b21c1a6e4325605bc6
 Time     Nov 25 01:02:54 2026 GMT
 Serial   0x2C8E837CB1C08E6A1A852ABDB9994155
 ```
+
+## Eighth token: two wordings aligned with the application file
+
+`LOGBOOK_2026-11-25_v8.tsr`. The status line of each entry now reads "Voted on by the six of us",
+and entry 005 says the market "has hit the sellers far harder than the buyers", as the file sent to
+Natixis does. No figure, date or decision has changed.
+
+```
+SHA-256  cd44088b3c6f3d327bbbd55f634ff3e6d8f2d710be9a54a0db07e8b27f592744
+Time     Nov 25 03:19:28 2026 GMT
+Serial   0x2A6ED4DFB717B672B3A5756EED6BF15D
+```
